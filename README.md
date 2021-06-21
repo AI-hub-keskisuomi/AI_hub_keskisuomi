@@ -14,6 +14,6 @@ _AI Hub is funded by The Council of Tampere Region._
 
 ## Työpaketit / _Work packages_
 
-WP1. Laskennalliset simulaatio- ja päätöksentekomallit SOTE-toimijoille asiakasryhmäkohtaisten interventioiden ja päätösten vaikuttavuuden arviointiin
-WP2. Biopankkidatan tehokas hyödyntäminen tekoälysovellusten kehittämisessä
-WP3. Uudet tekoälypohjaiset ratkaisut polven nivelrikon varhaiseen diagnostiikkaan
+- WP1 Laskennalliset simulaatio- ja päätöksentekomallit SOTE-toimijoille asiakasryhmäkohtaisten interventioiden ja päätösten vaikuttavuuden arviointiin
+- WP2 Biopankkidatan tehokas hyödyntäminen tekoälysovellusten kehittämisessä
+- WP3 Uudet tekoälypohjaiset ratkaisut polven nivelrikon varhaiseen diagnostiikkaan
