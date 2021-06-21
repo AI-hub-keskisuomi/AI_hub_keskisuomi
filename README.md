@@ -1,8 +1,8 @@
-# AI-hub-Keski-SUomi
+# AI-hub-Keski-Suomi
 
 AI-Hub Keski-Suomi hanke, jossa pyritään kehittää uusia innovaatioita sosiaali- ja terveydenhoitopalveluihin. Hankkeessa pyritään hyödyntää tekoälyä sekä laskennallisia menetelmiä eri sovellusalueilla, kuten hoitoprosessin tehostamisessa, syövän hoidossa ja nivelrikon ehkäisyssä. 
 
-_AI Hub is a project which aims to develop modern AI-driven solutions for social- and healthcare services. Project is in collaboration with University of Jyväskylä, University of Eastern Finland, Kuopio University Hospital, Savonia University of Applied Sciences and three different Finnish biobanks._
+_AI Hub is a project which aims to develop modern AI-driven solutions for social- and healthcare services._
 
 https://sote-ai.fi/fi
 
