@@ -46,267 +46,269 @@ def gauss_tanh(a, mult=16.0):
 
 #Below are various datasets
 
-##############################################################################
-
-#Load MNIST for training
-
-#Using MNIST as the example data, so 28 by 28 image with one channel
-(height, width, channels) = (28, 28, 1)
-n_classes = 10
-
-np.random.seed(0)
-
-(x_train, y_train), (x_test, y_test) = keras.datasets.mnist.load_data()
-x_train = x_train.reshape(x_train.shape[0], x_train.shape[1], x_train.shape[2], 1)
-y_train = y_train.reshape(y_train.shape[0], 1)
-
-x_test = x_test.reshape(x_test.shape[0], x_test.shape[1], x_test.shape[2], 1)
-y_test = y_test.reshape(y_test.shape[0], 1)
-
-#Validation split
-validation_split = 0.2
-#validation_split = 0.9
-train_n = int(x_train.shape[0] * (1.0 - validation_split))
-validation_n = x_train.shape[0] - train_n
-indices = np.arange(x_train.shape[0])
-train_idx = np.random.choice(indices, train_n, replace=False)
-valid_idx = np.setdiff1d(indices, train_idx)
-
-x_valid = x_train[valid_idx,:]
-y_valid = y_train[valid_idx,:]
-x_train = x_train[train_idx,:]
-y_train = y_train[train_idx,:]
-
-x_train = x_train.astype("float32") / 255.0
-x_valid = x_valid.astype("float32") / 255.0
-x_test = x_test.astype("float32") / 255.0
-y_train = keras.utils.to_categorical(y_train, n_classes)
-y_valid = keras.utils.to_categorical(y_valid, n_classes)
-y_test = keras.utils.to_categorical(y_test, n_classes)
-
-use_iterator = False
-from tensorflow.keras.preprocessing.image import ImageDataGenerator
-datagen = ImageDataGenerator(
-              #preprocessing_function=lambda x: x.astype("float32")/255.0,
-              width_shift_range=2,  # randomly shift images horizontally
-              height_shift_range=2,  # randomly shift images vertically 
-              #horizontal_flip=True,  # randomly flip images
-              #vertical_flip=True  # randomly flip images
-              )
-
-use_iterator = True
-#x_train = x_train[0:16]
-
-##############################################################################
-'''
-#Load Cifar-10 for training
-
-#Using Cifar-10 as the example data, so 32 by 32 image with three channels
-(height, width, channels) = (32, 32, 3)
-n_classes = 10
-
-np.random.seed(0)
-
-(x_train, y_train), (x_test, y_test) = keras.datasets.cifar10.load_data()
-x_train = x_train.reshape(x_train.shape[0], x_train.shape[1], x_train.shape[2], 3)
-y_train = y_train.reshape(y_train.shape[0], 1)
-
-x_test = x_test.reshape(x_test.shape[0], x_test.shape[1], x_test.shape[2], 3)
-y_test = y_test.reshape(y_test.shape[0], 1)
-
-#Validation split
-validation_split = 0.2
-#validation_split = 0.9
-train_n = int(x_train.shape[0] * (1.0 - validation_split))
-validation_n = x_train.shape[0] - train_n
-indices = np.arange(x_train.shape[0])
-train_idx = np.random.choice(indices, train_n, replace=False)
-valid_idx = np.setdiff1d(indices, train_idx)
-
-x_valid = x_train[valid_idx,:]
-y_valid = y_train[valid_idx,:]
-x_train = x_train[train_idx,:]
-y_train = y_train[train_idx,:]
-
-x_train = x_train.astype("float32") / 255.0
-x_valid = x_valid.astype("float32") / 255.0
-x_test = x_test.astype("float32") / 255.0
-y_train = keras.utils.to_categorical(y_train, n_classes)
-y_valid = keras.utils.to_categorical(y_valid, n_classes)
-y_test = keras.utils.to_categorical(y_test, n_classes)
-
-#use_iterator = False
-from tensorflow.keras.preprocessing.image import ImageDataGenerator
-datagen = ImageDataGenerator(
-              #preprocessing_function=lambda x: x.astype("float32")/255.0,
-              width_shift_range=4,  # randomly shift images horizontally
-              height_shift_range=4,  # randomly shift images vertically 
-              #horizontal_flip=True,  # randomly flip images
-              #vertical_flip=True  # randomly flip images
-              )
-
-use_iterator = True
-'''
-##############################################################################
-'''
-#TODO: Make this work
-#32x32 Street View House Numbers dataset, somewhat "upgraded" version of
-#MNIST. Need to install Tensorflow Datasets for this using:
-#
-#   pip install tensorflow-datasets
-#   or
-#   pip install tfds-nightly
-
-
-from tensorflow.keras.preprocessing.image import ImageDataGenerator
-
-import tensorflow_datasets as tfds
-(height, width, channels) = (32, 32, 3)
-dataset = tfds.load("svhn_cropped", as_supervised=False)
-train_data = dataset['train']
-image_list = []
-label_list = []
-#temp = train_data.map(lambda x : tf.cast(x['image'], tf.float32) / 255.0)
-temp = tfds.as_numpy(train_data)
-
-for ex in temp:
-    image_list.append(ex['image'])
-    label_list.append(ex['label'])
+if __name__ == "__main__":
     
-x_train = np.array(image_list)
-y_train = np.array(label_list)
-
-datagen = ImageDataGenerator(
-              preprocessing_function=lambda x: x.astype("float32")/255.0,
-              #width_shift_range=4,  # randomly shift images horizontally
-              #height_shift_range=4,  # randomly shift images vertically 
-              horizontal_flip=False,  # randomly flip images
-              vertical_flip=False)  # randomly flip images
-
-use_iterator = True
-
-'''
-
-##############################################################################
-'''
-#Load PCam dataset
-
-# !!! Full dataset will probably take about 9 GB of RAM when loaded into memory at once,
-# !!! implement an iterator if running on a machine that runs out of memory
-
-from tensorflow.keras.utils import HDF5Matrix
-from tensorflow.keras.preprocessing.image import ImageDataGenerator
-
-##########
-#Test if the dataset has been loaded so we don't load it again
-#https://stackoverflow.com/questions/843277/how-do-i-check-if-a-variable-exists
-##########
-
-filepath = "E:/PCam/camelyonpatch_level_2_split_train_x.h5"
-#filepath = "E:/PCam/camelyonpatch_level_2_split_valid_x.h5"
-
-x_train = HDF5Matrix(filepath, 'x')
-datagen = ImageDataGenerator(
-              preprocessing_function=lambda x: x.astype("float32")/255.0,
-              #width_shift_range=4,  # randomly shift images horizontally
-              #height_shift_range=4,  # randomly shift images vertically 
-              horizontal_flip=True,  # randomly flip images
-              vertical_flip=True)  # randomly flip images
-
-(height, width, channels) = x_train[0].shape
-
-
-#Splitting the height and width when using cropping to corners (divides image
-#in 4)
-#height = int(height/2)
-#width = int(width/2)
-
-use_iterator = True
-'''
-##############################################################################
-#Warning: This seems to eat over 8 GB of memory. Changing the program to use
-#the tfds iterator (or similar) might be a good way to solve the memory
-#requirements. Some of the plotting functions may need another way of getting
-#16 samples, but this should be easy to implement some other way.
-
-'''
-#Load Celeb-A dataset
-from tensorflow.keras.preprocessing.image import ImageDataGenerator
-import tensorflow_datasets as tfds
-from skimage.transform import resize
-import skimage.measure
-
-
-(height, width, channels) = (108, 88, 3)
-#Whether the dataset needs to be preprocessed (only needs to be done once)
-#Preprocessing takes a fairly long time, depending on the computer this is
-#being ran on?
-#   True if the dataset needs to be preprocessed
-#   False if the dataset has already been preprocessed 
-preprocess = True
-
-if preprocess:
-    #x_train = tf.keras.preprocessing.image_dataset_from_directory(
-    #    "E:/Celeb_a",
-    #    label_mode=None,
-    #    batch_size=3,
-    #    image_size=(218,178)
-    #    )
-    #x_train = tf.data.Dataset.list_files("E:/Celeb_a/img_align_celeba/*.jpg")
-    preprocess_batch_size = 1000
+    ##############################################################################
     
-    data_list = tfds.as_numpy(tfds.load("celeb_a", as_supervised=False, batch_size=preprocess_batch_size))
-    #valid_data = data_list['validation']
-    #test_data = data_list['test']
-    #train_data = data_list['train']
+    #Load MNIST for training
     
-    #For full sized images, use this instead:
-    #x_train = (data_list['train'])['image']
-    #resize_func = lambda x : (resize(x, (108,88))*255.0).astype(np.uint8)
-    #print("Starting preprocessing of Celeb-A...")
-    #x_train = np.apply_along_axis(resize_func, 0, (data_list['train'])['image'])
-    #np.save("E:/celeb_a_downscaled.npy", x_train, allow_pickle=True)
-    #x_train_original = []
-    #x_train = []
-    x_train = np.zeros((162770, height, width, channels), dtype=np.uint8)
-    preprocess_index = 0
-    for i in data_list['train']:
-        #Truncating edges to get divisible image sizes
-        image = i['image'][:,1:217,1:177,:]
-        image_reduced = skimage.measure.block_reduce(image, (1,2,2,1), func=np.mean).astype(np.uint8)
+    #Using MNIST as the example data, so 28 by 28 image with one channel
+    (height, width, channels) = (28, 28, 1)
+    n_classes = 10
+    
+    np.random.seed(0)
+    
+    (x_train, y_train), (x_test, y_test) = keras.datasets.mnist.load_data()
+    x_train = x_train.reshape(x_train.shape[0], x_train.shape[1], x_train.shape[2], 1)
+    y_train = y_train.reshape(y_train.shape[0], 1)
+    
+    x_test = x_test.reshape(x_test.shape[0], x_test.shape[1], x_test.shape[2], 1)
+    y_test = y_test.reshape(y_test.shape[0], 1)
+    
+    #Validation split
+    validation_split = 0.2
+    #validation_split = 0.9
+    train_n = int(x_train.shape[0] * (1.0 - validation_split))
+    validation_n = x_train.shape[0] - train_n
+    indices = np.arange(x_train.shape[0])
+    train_idx = np.random.choice(indices, train_n, replace=False)
+    valid_idx = np.setdiff1d(indices, train_idx)
+    
+    x_valid = x_train[valid_idx,:]
+    y_valid = y_train[valid_idx,:]
+    x_train = x_train[train_idx,:]
+    y_train = y_train[train_idx,:]
+    
+    x_train = x_train.astype("float32") / 255.0
+    x_valid = x_valid.astype("float32") / 255.0
+    x_test = x_test.astype("float32") / 255.0
+    y_train = keras.utils.to_categorical(y_train, n_classes)
+    y_valid = keras.utils.to_categorical(y_valid, n_classes)
+    y_test = keras.utils.to_categorical(y_test, n_classes)
+    
+    use_iterator = False
+    from tensorflow.keras.preprocessing.image import ImageDataGenerator
+    datagen = ImageDataGenerator(
+                  #preprocessing_function=lambda x: x.astype("float32")/255.0,
+                  width_shift_range=2,  # randomly shift images horizontally
+                  height_shift_range=2,  # randomly shift images vertically 
+                  #horizontal_flip=True,  # randomly flip images
+                  #vertical_flip=True  # randomly flip images
+                  )
+    
+    use_iterator = True
+    #x_train = x_train[0:16]
+    
+    ##############################################################################
+    '''
+    #Load Cifar-10 for training
+    
+    #Using Cifar-10 as the example data, so 32 by 32 image with three channels
+    (height, width, channels) = (32, 32, 3)
+    n_classes = 10
+    
+    np.random.seed(0)
+    
+    (x_train, y_train), (x_test, y_test) = keras.datasets.cifar10.load_data()
+    x_train = x_train.reshape(x_train.shape[0], x_train.shape[1], x_train.shape[2], 3)
+    y_train = y_train.reshape(y_train.shape[0], 1)
+    
+    x_test = x_test.reshape(x_test.shape[0], x_test.shape[1], x_test.shape[2], 3)
+    y_test = y_test.reshape(y_test.shape[0], 1)
+    
+    #Validation split
+    validation_split = 0.2
+    #validation_split = 0.9
+    train_n = int(x_train.shape[0] * (1.0 - validation_split))
+    validation_n = x_train.shape[0] - train_n
+    indices = np.arange(x_train.shape[0])
+    train_idx = np.random.choice(indices, train_n, replace=False)
+    valid_idx = np.setdiff1d(indices, train_idx)
+    
+    x_valid = x_train[valid_idx,:]
+    y_valid = y_train[valid_idx,:]
+    x_train = x_train[train_idx,:]
+    y_train = y_train[train_idx,:]
+    
+    x_train = x_train.astype("float32") / 255.0
+    x_valid = x_valid.astype("float32") / 255.0
+    x_test = x_test.astype("float32") / 255.0
+    y_train = keras.utils.to_categorical(y_train, n_classes)
+    y_valid = keras.utils.to_categorical(y_valid, n_classes)
+    y_test = keras.utils.to_categorical(y_test, n_classes)
+    
+    #use_iterator = False
+    from tensorflow.keras.preprocessing.image import ImageDataGenerator
+    datagen = ImageDataGenerator(
+                  #preprocessing_function=lambda x: x.astype("float32")/255.0,
+                  width_shift_range=4,  # randomly shift images horizontally
+                  height_shift_range=4,  # randomly shift images vertically 
+                  #horizontal_flip=True,  # randomly flip images
+                  #vertical_flip=True  # randomly flip images
+                  )
+    
+    use_iterator = True
+    '''
+    ##############################################################################
+    '''
+    #TODO: Make this work
+    #32x32 Street View House Numbers dataset, somewhat "upgraded" version of
+    #MNIST. Need to install Tensorflow Datasets for this using:
+    #
+    #   pip install tensorflow-datasets
+    #   or
+    #   pip install tfds-nightly
+    
+    
+    from tensorflow.keras.preprocessing.image import ImageDataGenerator
+    
+    import tensorflow_datasets as tfds
+    (height, width, channels) = (32, 32, 3)
+    dataset = tfds.load("svhn_cropped", as_supervised=False)
+    train_data = dataset['train']
+    image_list = []
+    label_list = []
+    #temp = train_data.map(lambda x : tf.cast(x['image'], tf.float32) / 255.0)
+    temp = tfds.as_numpy(train_data)
+    
+    for ex in temp:
+        image_list.append(ex['image'])
+        label_list.append(ex['label'])
         
-        x_train[
-            preprocess_index:preprocess_index + 
-            image_reduced.shape[0]] = image_reduced
-        preprocess_index += preprocess_batch_size
+    x_train = np.array(image_list)
+    y_train = np.array(label_list)
     
-    #for i in train_data:
-        #x_train_original.append(i['image'])
-        #Resolution for downscaled version can be changed here
-        #x_train.append((resize(i['image'], (108,88))*255.0).astype(np.uint8))
+    datagen = ImageDataGenerator(
+                  preprocessing_function=lambda x: x.astype("float32")/255.0,
+                  #width_shift_range=4,  # randomly shift images horizontally
+                  #height_shift_range=4,  # randomly shift images vertically 
+                  horizontal_flip=False,  # randomly flip images
+                  vertical_flip=False)  # randomly flip images
     
-    #x_train_original = np.array(x_train_original)
-    #x_train = np.array(x_train)
-    #print("train_list loaded")
-    #np.save("E:/celeb_a.npy", x_train_original, allow_pickle=True)
-    np.save("E:/celeb_a_downscaled.npy", x_train, allow_pickle=True)
-    #print("Arrays saved")
-else:
-    #Switch between these depending on which resolution you need
-    #x_train = np.load("E:/celeb_a.npy")
-    x_train = np.load("E:/celeb_a_downscaled.npy")
-
-datagen = ImageDataGenerator(
-              preprocessing_function=lambda x: x.astype("float32")/255.0,
-              #width_shift_range=4,  # randomly shift images horizontally
-              #height_shift_range=4,  # randomly shift images vertically 
-              horizontal_flip=True,  # randomly flip images
-              vertical_flip=False)  # randomly flip images
-#(height, width, channels) = (218, 178, 3)
-
-use_iterator = True
-'''
-##############################################################################
+    use_iterator = True
+    
+    '''
+    
+    ##############################################################################
+    '''
+    #Load PCam dataset
+    
+    # !!! Full dataset will probably take about 9 GB of RAM when loaded into memory at once,
+    # !!! implement an iterator if running on a machine that runs out of memory
+    
+    from tensorflow.keras.utils import HDF5Matrix
+    from tensorflow.keras.preprocessing.image import ImageDataGenerator
+    
+    ##########
+    #Test if the dataset has been loaded so we don't load it again
+    #https://stackoverflow.com/questions/843277/how-do-i-check-if-a-variable-exists
+    ##########
+    
+    filepath = "E:/PCam/camelyonpatch_level_2_split_train_x.h5"
+    #filepath = "E:/PCam/camelyonpatch_level_2_split_valid_x.h5"
+    
+    x_train = HDF5Matrix(filepath, 'x')
+    datagen = ImageDataGenerator(
+                  preprocessing_function=lambda x: x.astype("float32")/255.0,
+                  #width_shift_range=4,  # randomly shift images horizontally
+                  #height_shift_range=4,  # randomly shift images vertically 
+                  horizontal_flip=True,  # randomly flip images
+                  vertical_flip=True)  # randomly flip images
+    
+    (height, width, channels) = x_train[0].shape
+    
+    
+    #Splitting the height and width when using cropping to corners (divides image
+    #in 4)
+    #height = int(height/2)
+    #width = int(width/2)
+    
+    use_iterator = True
+    '''
+    ##############################################################################
+    #Warning: This seems to eat over 8 GB of memory. Changing the program to use
+    #the tfds iterator (or similar) might be a good way to solve the memory
+    #requirements. Some of the plotting functions may need another way of getting
+    #16 samples, but this should be easy to implement some other way.
+    
+    '''
+    #Load Celeb-A dataset
+    from tensorflow.keras.preprocessing.image import ImageDataGenerator
+    import tensorflow_datasets as tfds
+    from skimage.transform import resize
+    import skimage.measure
+    
+    
+    (height, width, channels) = (108, 88, 3)
+    #Whether the dataset needs to be preprocessed (only needs to be done once)
+    #Preprocessing takes a fairly long time, depending on the computer this is
+    #being ran on?
+    #   True if the dataset needs to be preprocessed
+    #   False if the dataset has already been preprocessed 
+    preprocess = True
+    
+    if preprocess:
+        #x_train = tf.keras.preprocessing.image_dataset_from_directory(
+        #    "E:/Celeb_a",
+        #    label_mode=None,
+        #    batch_size=3,
+        #    image_size=(218,178)
+        #    )
+        #x_train = tf.data.Dataset.list_files("E:/Celeb_a/img_align_celeba/*.jpg")
+        preprocess_batch_size = 1000
+        
+        data_list = tfds.as_numpy(tfds.load("celeb_a", as_supervised=False, batch_size=preprocess_batch_size))
+        #valid_data = data_list['validation']
+        #test_data = data_list['test']
+        #train_data = data_list['train']
+        
+        #For full sized images, use this instead:
+        #x_train = (data_list['train'])['image']
+        #resize_func = lambda x : (resize(x, (108,88))*255.0).astype(np.uint8)
+        #print("Starting preprocessing of Celeb-A...")
+        #x_train = np.apply_along_axis(resize_func, 0, (data_list['train'])['image'])
+        #np.save("E:/celeb_a_downscaled.npy", x_train, allow_pickle=True)
+        #x_train_original = []
+        #x_train = []
+        x_train = np.zeros((162770, height, width, channels), dtype=np.uint8)
+        preprocess_index = 0
+        for i in data_list['train']:
+            #Truncating edges to get divisible image sizes
+            image = i['image'][:,1:217,1:177,:]
+            image_reduced = skimage.measure.block_reduce(image, (1,2,2,1), func=np.mean).astype(np.uint8)
+            
+            x_train[
+                preprocess_index:preprocess_index + 
+                image_reduced.shape[0]] = image_reduced
+            preprocess_index += preprocess_batch_size
+        
+        #for i in train_data:
+            #x_train_original.append(i['image'])
+            #Resolution for downscaled version can be changed here
+            #x_train.append((resize(i['image'], (108,88))*255.0).astype(np.uint8))
+        
+        #x_train_original = np.array(x_train_original)
+        #x_train = np.array(x_train)
+        #print("train_list loaded")
+        #np.save("E:/celeb_a.npy", x_train_original, allow_pickle=True)
+        np.save("E:/celeb_a_downscaled.npy", x_train, allow_pickle=True)
+        #print("Arrays saved")
+    else:
+        #Switch between these depending on which resolution you need
+        #x_train = np.load("E:/celeb_a.npy")
+        x_train = np.load("E:/celeb_a_downscaled.npy")
+    
+    datagen = ImageDataGenerator(
+                  preprocessing_function=lambda x: x.astype("float32")/255.0,
+                  #width_shift_range=4,  # randomly shift images horizontally
+                  #height_shift_range=4,  # randomly shift images vertically 
+                  horizontal_flip=True,  # randomly flip images
+                  vertical_flip=False)  # randomly flip images
+    #(height, width, channels) = (218, 178, 3)
+    
+    use_iterator = True
+    '''
+    ##############################################################################
 
 #BiGAN model
 
@@ -956,10 +958,10 @@ def image_variance_block(input_layer):
 #BiGAN class
 #Decay is implemented manually in training loop
 class BiGAN(object):
-    def __init__(self, 
+    def __init__(self,
+                 image_shape,
                  latent_size = 32,
                  batch_size = 10,
-                 channels=3,
                  G_architecture = 1,
                  E_architecture = 1,
                  #Default optimizers defined here, could be better to not keep
@@ -972,7 +974,11 @@ class BiGAN(object):
                  ):
         self.latent_size = latent_size
         self.batch_size = batch_size
-        self.channels = channels
+        (self.height, self.width, self.channels) = image_shape
+        #Using these to refer to the shape parameters without self prefix
+        height = self.height
+        width = self.width
+        channels = self.channels
         self.gp_weight = gp_weight
         ####Activations####
         #Might be better to not waste time testing training with different
@@ -1369,7 +1375,7 @@ class BiGAN(object):
         ######################END OF LATENT SHAPING PARTS#####################
         
         
-        gen = self.create_generator(gen_input, version=G_architecture, act=act, initializer=initializer)
+        gen = self.create_generator(gen_input, image_shape = (height, width, channels), version=G_architecture, act=act, initializer=initializer)
         
         self.G = keras.Model(inputs = gen_input, outputs = gen, name="G")
         
@@ -1379,7 +1385,7 @@ class BiGAN(object):
         
         ############################BASIC ENCODER##############################
         
-        enc_input = keras.Input(shape=(height, width, self.channels), name="encoder_input_layer")
+        enc_input = keras.Input(shape=(height, width, channels), name="encoder_input_layer")
         
         enc = self.create_encoder(enc_input, version=E_architecture, act=act, initializer=enc_initializer, l2_reg = l2_enc)
         
@@ -1566,9 +1572,10 @@ class BiGAN(object):
         #self.dis_model.compile(optimizer = keras.optimizers.Adam(), loss = [keras.losses.hinge, partial_gp_loss])
         ######################################################################
         
-    def create_generator(self, input_layer,  version=1, act="relu", initializer="he_uniform", batchnorm=False, l2_reg=0.0):
+    def create_generator(self, input_layer, image_shape, version=1, act="relu", initializer="he_uniform", batchnorm=False, l2_reg=0.0):
         rescale_factor = 8
         gen = None
+        (height, width, channels) = image_shape
         if version==0:
             #Architecture based on AlexNet, switched around for generation, as
             #in going from smaller height and width into a full image
@@ -2453,7 +2460,7 @@ def batch_crop(batch):
 
 if __name__ == "__main__":
     
-    epochs = 20
+    epochs = 4
     batch_size = 16
     #latent_size = 512
     latent_size = 128
@@ -2462,7 +2469,7 @@ if __name__ == "__main__":
     batches = int(np.floor(x_train.shape[0]/batch_size))
     #batches = int(np.floor(202599/batch_size))
     
-    gan = BiGAN(latent_size=latent_size, batch_size=batch_size, channels=channels)
+    gan = BiGAN(latent_size=latent_size, image_shape=(height, width, channels), batch_size=batch_size)
     
     #Amount of rows and columns for visualization
     rows = 4
@@ -2728,7 +2735,7 @@ if __name__ == "__main__":
                     
                     print("=============================================")
     
-    
+            gan.save()
     
     #testscores = model.evaluate(x_test, x_test)
     #print("Test score:", testscores[0])
