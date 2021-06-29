@@ -21,7 +21,7 @@ Menetelmän lyhyt kuvaus:
     1. etsi femurin reuna
     2. etsi tibian reuna
 
-2.2: tibian reunan etsiminen on Canny-pohjainen. Paikoin löytynyt reuna saattaa katketa, koska kuvassa ei ole (tarpeeksi suurta) gradienttia. Katkeamisia tapahtuu usein. Splini on jatkuva ja sileä koko matkalta eli yhdistää reunan osat.
+2.ii: tibian reunan etsiminen on Canny-pohjainen. Paikoin löytynyt reuna saattaa katketa, koska kuvassa ei ole (tarpeeksi suurta) gradienttia. Katkeamisia tapahtuu usein. Splini on jatkuva ja sileä koko matkalta eli yhdistää reunan osat.
 
 ## Menetelmästä
 Nivelrikko on yleinen (maailman yleisin nivelsairaus) ja kallis sairaus. Sen kustannukset Suomessa on arvioitu olevan miljardin luokkaa vuodessa. Sen aikainen tunnistaminen säästäisi rahaa ja kipua. Nivelrikon diagnosoinnissa käytetään röntgenkuvaa ja kliinisiä tutkimuksia. Röntgenkuvassa näkyy sairaudelle tyypillisiä muutoksia nivelen luurakenteessa. Aikainenen tunnistaminen on kuitenkin vaikeaa. Tunnistukseen röntgenkuvista on kehitetty automaattisia menetelmiä, mutta parhaatkaan niistä eivät riittävän luotettavasti ole kyenneet tunnistamaan aikaisen vaiheen nivelrikkoa. Tällä hetkellä parhaat kehitetyt menetelmät ovat konvoluutioneuroverkkoja.
