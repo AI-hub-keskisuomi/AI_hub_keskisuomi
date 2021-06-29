@@ -1,5 +1,8 @@
 # Sääriluun eminentia-alueen reunantunnistusmenetelmä
 Eminentia-alueen reunantunnistusmenetelmä DICOM-formaatin rtg-kuvista: etsii ja palauttaa luun muodon polvinivelessä, keskittyy eminentioiden reunan tunnistamiseen.
+
+![esimerkki1](esimerkki1.png) ![esimerkki2](esimerkki2.png)
+
 ### Käyttö: 
 * DICOM-kuvakansiopolku funktiolle find_eminentia_edge(path).
   - path muodossa polku/potilasid/kuvaid
@@ -12,7 +15,7 @@ Eminentia-alueen reunantunnistusmenetelmä DICOM-formaatin rtg-kuvista: etsii ja
   - *femur_edge*: binäärikuva femurin löytyneestä reunasta
 
 Vaaditut paketit: numpy, matplotlib, scipy, skimage, pydicom, sklearn
-	
+
 Menetelmän lyhyt kuvaus:
 1. eristä polvialue (funktio find_knee_area)
     1. etsi luut (pääasiassa funktio find_femur)
@@ -75,7 +78,7 @@ Menetelmä nojaa suurelta osin Canny-reunantunnistusmenetelmään (J. Canny 1986
     - Järjestetään reunapisteet (= *joined_tibia_line*)
     - Sovitetaan splini (= *tck*)
     - piirretään splinibinääriuva (= *splineimg*)
-	
+
 Huomioita
 * Koodissa on paikoin epäsäännöllisyyksiä johtuen sen luomistavasta, esim. Cannyn parametrit on eri tavalla mukana eri funktioissa
 * Koodissa saattaa olla myös joitain turhaksi jääneitä rivejä ja funktioitakin
