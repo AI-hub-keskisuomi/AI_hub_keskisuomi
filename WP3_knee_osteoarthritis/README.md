@@ -30,14 +30,14 @@ Hypoteesin mukaan eminentioiden, eli sääriluun nivelalueen keskiosan (kuvassa)
 
 Menetelmä nojaa suurelta osin Canny-reunantunnistusmenetelmään (J. Canny 1986). 
 
-### 1.1. Luiden reunojen etsintä
+### 1.i. Luiden reunojen etsintä
 1. Haetaan kuvasta pystysuuntaiset reunat (horisontaalinen sobel ja canny)
 2. Etsitään keskiarvoltaan kirkkain kahden löytyneen reunan välinen alue
     - Lasketaan riveittän ylhäältä alas
     - Seuraavan rivin tulosta painotetaan edellisen rivin tuloksella
     - Paluuarvona on binäärikuva luualueesta, jossa luualue = 1 ja muu alue = 0
 
-### 1.2. Nivelalueen etsintä
+### 1.ii. Nivelalueen etsintä
 1. Lineaariregressio luuta pitkin (pystysuuntainen regressio eli x- ja y-akseli vaihdetaan keskenään)
 2. Silmukassa
     - Regressiosuoran suuntainen kuvan derivaatta f
@@ -48,7 +48,7 @@ Menetelmä nojaa suurelta osin Canny-reunantunnistusmenetelmään (J. Canny 1986
 3. rajataan nivelalue alustuspisteiden avulla
 - Paluuarvona rajattu nivelalue (= *knee_area*) sekä binäärikuva femurin alustusreunasta
 
-### 2.1. Femurin reuna
+### 2.i. Femurin reuna
 - käyttää kuvana rajattua nivelaluetta
 1. Reunaversio kuvasta Canny-algoritmilla (herkillä asetuksilla) = canny-kuva
 2. Poimitaan kandidaattireunoiksi ne canny-kuvan reunat, jotka menevät ovat (edes osittain) päällekäisiä alustusreunan kanssa.
@@ -56,7 +56,7 @@ Menetelmä nojaa suurelta osin Canny-reunantunnistusmenetelmään (J. Canny 1986
 3. Poimitaan sarakkeittain alimman haaran reunapisteet
 - Tuloksena on binäärikuva Femurin reunasta (kuvassa sinisellä) (= *femur_edge*)
 
-### 2.2. Tibian reuna
+### 2.ii. Tibian reuna
 1. Vaakasuuntaiset reunat
     - Löytyvät kertomalla canny-kuva ja horisontaalinen gradienttiversio kuvasta (sobel) keskenään
     - Reunapikseleistä valitaan sarakkeittain ylimmät, jotka ovat reisiluun reunaa alempana
