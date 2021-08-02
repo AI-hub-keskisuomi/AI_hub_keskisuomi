@@ -32,7 +32,7 @@ def process_tiles(source_dir, save_dir, level, tile_size):
 
 def tile_im(slide, step, filename, save_dir):
     
-    m,n = slide.shape[0], slide.shape[1]
+    n,m = slide.shape[0], slide.shape[1]
 
     mask = cv2.cvtColor(slide, cv2.COLOR_RGBA2RGB)
     mask = cv2.cvtColor(mask, cv2.COLOR_RGB2HSV)
@@ -57,8 +57,8 @@ def tile_im(slide, step, filename, save_dir):
     if (rem_y != 0):
         y_start = y_start + rem_y
         
-    img_cropped = tissue_mask[y_start:y_end,x_start:x_end]
-    color_cropped = slide[y_start:y_end,x_start:x_end]
+    img_cropped = tissue_mask[x_start:x_end,y_start:y_end]
+    color_cropped = slide[x_start:x_end,y_start:y_end]
     
     # tissue percentage
     threshold = 0.9
@@ -78,8 +78,8 @@ def tile_im(slide, step, filename, save_dir):
             
             if area_ratio > threshold:
                 tile = color_cropped[i*step:i*step+step , j*step:j*step+step]
-                x_ = j*step
-                y_ = i*step
+                x_ = i*step
+                y_ = j*step
                 tile_cordinates[count,0]=x_
                 tile_cordinates[count,1]=y_
                  
