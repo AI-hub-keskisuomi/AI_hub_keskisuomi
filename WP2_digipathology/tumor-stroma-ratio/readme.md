@@ -7,7 +7,7 @@ Kasvain-strooma suhdeluku (TSR) on yksi niistä tekijöistä, joita patologi mä
 ### Silmämääräinen kasvain-strooma suhdeluvun arviointi / Visual estimation of tumor-stroma ratio
 
 <img width="401" alt="tsr_example" src="https://user-images.githubusercontent.com/64031196/165466014-5ffd43e3-434b-413a-a074-f4cca997421a.png">
-Kuva: Van Pelt, et al. "Scoring the tumor-stroma ratio in colon cancer: procedure and recommendations." Virchows Archiv 473, no. 4 (2018): 405-412.
+<span style="font-size:4em;">Kuva: Van Pelt, et al. "Scoring the tumor-stroma ratio in colon cancer: procedure and recommendations." Virchows Archiv 473, no. 4 (2018): 405-412.</span>
 
 TSR arvioidaan kasvaimen alueelta kohdasta, jossa on eniten stroomaa. Näkymässä tulee olla vähintään neljällä laidalla kasvainta.
 
