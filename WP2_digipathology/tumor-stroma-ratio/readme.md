@@ -28,9 +28,11 @@ Kansiossa **models** on saatavilla kolme erilaista paksusuolensyövästä otetui
 - **SETUP_1_vgg19_FINAL.pt**: 
     - esiopetus: ImageNet ja Kather et. al. (2018) julkaisema datasetti
     - lopullinen opetus: "Suolisyöpä Keski-Suomessa 2000-2015" -hankkeen kuvat
+    
 - **SETUP_2_vgg19_FINAL.pt**:
     - esiopetus ImageNet
     - lopullinen opetus: "Suolisyöpä Keski-Suomessa 2000-2015" -hankkeen kuvat
+
 - **SETUP_3_googlenet_FINAL.pt**: 
     - esiopetus Kather et. al. (2018) julkaisema datasetti
     - lopullinen opetus: "Suolisyöpä Keski-Suomessa 2000-2015"-hankkeen kuvat
@@ -40,3 +42,15 @@ Luokat:
 - **0**: muu
 - **1**: strooma
 - **2**: kasvain
+
+## Syötekuvat / Input images
+
+- syötekoko kaikille malleille 224 x 224 px^2
+- 
+- SETUP_1 - ja SETUP_2 -mallit:
+       - kuvien normalisointi seuraavasti: keskiarvot = [0.485, 0.456, 0.406], keskihajonnat = [0.229, 0.224, 0.225]
+       - käytä vgg19-arkkitehtuuria, joka on esiopetettu ImageNetillä
+
+- SETUP_3 -malli: 
+        - normalisointi seuraavasti: keskiarvot = [0.6979, 0.4694, 0.6644], keskihajonnat = [0.1371, 0.1540, 0.1269]
+        - käytä googlenet-arkkitehtuuria, ilman ImageNet-esiopetusta
