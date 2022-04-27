@@ -21,3 +21,16 @@ Kun TSR ennustetaan automaattisesti, koko näytteen alue pilkotaan pienempiin ku
 
 *When predicting TSR automatically, entire sample is tiled to smaller image tiles and the model predicts class for each tile. There are three classes: stroma, tumor and other. TSR is the percentage of stroma tiles from the total amount of stroma plus tumor tiles.*
 
+# Konvoluutioneuroverkkomallit / Convolutional neural network models
+
+Kansiossa **models** on saatavilla kolme erilaista paksusuolensyövästä otetuilla histopatologisilla kuvilla koulutettua konvoluutioneuroverkkoluokitinta:
+
+- **SETUP_1_vgg19_FINAL.pt**: esiopetettu ImageNetillä sekä Kather et. al. (2018) julkaisemalla datasetillä, lopullinen opetus tehty "Suolisyöpä Keski-Suomessa 2000-2015" -hankkeen kuvilla
+- **SETUP_2_vgg19_FINAL.pt**: esiopetettu ImageNetillä, lopullinen opetus tehty "Suolisyöpä Keski-Suomessa 2000-2015" -hankkeen kuvilla
+- **SETUP_3_googlenet_FINAL.pt**: esiopetettu Kather et. al. (2018) julkaisemalla datasetillä, lopullinen opetus tehty "Suolisyöpä Keski-Suomessa 2000-2015"-hankkeen kuvilla
+
+Luokat:
+
+- **0**: muu
+- **1**: strooma
+- **2**: kasvain
