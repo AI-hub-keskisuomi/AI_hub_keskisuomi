@@ -45,12 +45,13 @@ Luokat:
 
 ## Syötekuvat / Input images
 
-- syötekoko kaikille malleille 224 x 224 px^2
+- syötekoko kaikille malleille 224 x 224 px$^2$
+- mallit on koulutettu Macenko-normalisoiduilla kuvilla
 
 - SETUP_1 - ja SETUP_2 -mallit:
-    - kuvien normalisointi seuraavasti: keskiarvot = [0.485, 0.456, 0.406], keskihajonnat = [0.229, 0.224, 0.225]
+    - kuvien normalisointiin käytettävät keskiarvot = [0.485, 0.456, 0.406] ja keskihajonnat = [0.229, 0.224, 0.225]
     - käytä vgg19-arkkitehtuuria, joka on esiopetettu ImageNetillä
 
 - SETUP_3 -malli: 
-     - normalisointi seuraavasti: keskiarvot = [0.6979, 0.4694, 0.6644], keskihajonnat = [0.1371, 0.1540, 0.1269]
+     - kuvien normalisointiin käytettävät keskiarvot = [0.6979, 0.4694, 0.6644] ja keskihajonnat = [0.1371, 0.1540, 0.1269]
      - käytä googlenet-arkkitehtuuria, ilman ImageNet-esiopetusta
