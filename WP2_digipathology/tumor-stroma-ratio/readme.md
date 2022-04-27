@@ -5,10 +5,7 @@ Kasvain-strooma suhdeluku (TSR) on yksi niistä tekijöistä, joita patologi mä
 *Tumor-stroma ratio (TSR) is one of the factors pathologists estimates when analyzing a histopathogical sample from cancer tissue on a microscope. The greater the amount of stroma is in the tumor site, the worse is the prognosis of the patient. Visual TSR is scored from a spot, which seems to have the biggest amount of stroma. As the process is manual, the challenge is the reproducibility of this scoring method.*
 
 ### Silmämääräinen kasvain-strooma suhdeluvun arviointi / Visual estimation of tumor-stroma ratio
-<figure>
 <img width="401" alt="tsr_example" src="https://user-images.githubusercontent.com/64031196/165466014-5ffd43e3-434b-413a-a074-f4cca997421a.png">
-<figcaption font-size:"1em">djkfajkfödakf</figcaption>
-</figure>
 
 TSR arvioidaan kasvaimen alueelta kohdasta, jossa on eniten stroomaa. Näkymässä tulee olla vähintään neljällä laidalla kasvainta.
 
