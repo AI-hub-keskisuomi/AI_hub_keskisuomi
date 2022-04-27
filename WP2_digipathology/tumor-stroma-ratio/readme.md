@@ -23,14 +23,17 @@ Kun TSR ennustetaan automaattisesti, koko näytteen alue pilkotaan pienempiin ku
 
 # Konvoluutioneuroverkkomallit / Convolutional neural network models
 
-Kansiossa **models** on saatavilla kolme erilaista paksusuolensyövästä otetuilla histopatologisilla kuvilla koulutettua konvoluutioneuroverkkoluokitinta:
+Kansiossa **models** on saatavilla kolme erilaista paksusuolensyövästä otetuilla histopatologisilla kuvilla opetettua konvoluutioneuroverkkoluokitinta:
 
 - **SETUP_1_vgg19_FINAL.pt**: 
-    - esiopetettu ImageNetillä sekä Kather et. al. (2018) julkaisemalla datasetillä, lopullinen opetus tehty "Suolisyöpä Keski-Suomessa 2000-2015" -hankkeen kuvilla
+    - esiopetus: ImageNet ja Kather et. al. (2018) julkaisema datasetti
+    - lopullinen opetus: "Suolisyöpä Keski-Suomessa 2000-2015" -hankkeen kuvat
 - **SETUP_2_vgg19_FINAL.pt**:
-    - esiopetettu ImageNetillä, lopullinen opetus tehty "Suolisyöpä Keski-Suomessa 2000-2015" -hankkeen kuvilla
+    - esiopetus ImageNet
+    - lopullinen opetus: "Suolisyöpä Keski-Suomessa 2000-2015" -hankkeen kuvat
 - **SETUP_3_googlenet_FINAL.pt**: 
-    - esiopetettu Kather et. al. (2018) julkaisemalla datasetillä, lopullinen opetus tehty "Suolisyöpä Keski-Suomessa 2000-2015"-hankkeen kuvilla
+    - esiopetus Kather et. al. (2018) julkaisema datasetti
+    - lopullinen opetus: "Suolisyöpä Keski-Suomessa 2000-2015"-hankkeen kuvat
 
 Luokat:
 
