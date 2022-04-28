@@ -25,31 +25,46 @@ Kun TSR ennustetaan automaattisesti, koko näytteen alue pilkotaan pienempiin ku
 
 Kansiossa **models** on saatavilla kolme erilaista paksusuolensyövästä otetuilla histopatologisilla kuvilla opetettua konvoluutioneuroverkkoluokitinta.
 
-*Three CNNs trained with histopathological images from colorectal cancer can be downloaded from the **models** -folder.*
-
 - **SETUP_1_vgg19_FINAL.pt**: 
     - esiopetus: ImageNet ja Kather et. al. (2018) julkaisema datasetti
     - lopullinen opetus: "Suolisyöpä Keski-Suomessa 2000-2015" -hankkeen kuvat
-    - *pre-training: ImageNet and Kather et. al. (2018) colorectal cancer public dataset*
-    - *final training with images from "Suolisyöpä Keski-Suomessa 2000-2015" project*
     
 - **SETUP_2_vgg19_FINAL.pt**:
     - esiopetus ImageNet
     - lopullinen opetus: "Suolisyöpä Keski-Suomessa 2000-2015" -hankkeen kuvat
-    - *pre-training: ImageNet*
-    - *final training with images from "Suolisyöpä Keski-Suomessa 2000-2015" project*
     
 - **SETUP_3_googlenet_FINAL.pt**: 
     - esiopetus Kather et. al. (2018) julkaisema datasetti
     - lopullinen opetus: "Suolisyöpä Keski-Suomessa 2000-2015"-hankkeen kuvat
-    - *pre-training: Kather et. al. (2018) colorectal cancer public dataset*
-    - *final training with images from "Suolisyöpä Keski-Suomessa 2000-2015" project*
     
 Luokat:
 
-- **0**: muu / *other*
-- **1**: strooma / *stroma*
-- **2**: kasvain / *tumor*
+- **0**: muu
+- **1**: strooma
+- **2**: kasvain
+
+---
+
+*Three CNNs trained with histopathological images from colorectal cancer can be downloaded from the **models** -folder.*
+
+- **SETUP_1_vgg19_FINAL.pt**: 
+    - *pre-training: ImageNet and Kather et. al. (2018) colorectal cancer public dataset*
+    - *final training with images from "Suolisyöpä Keski-Suomessa 2000-2015" project*
+    
+- **SETUP_2_vgg19_FINAL.pt**:
+    - *pre-training: ImageNet*
+    - *final training with images from "Suolisyöpä Keski-Suomessa 2000-2015" project*
+    
+- **SETUP_3_googlenet_FINAL.pt**: 
+    - *pre-training: Kather et. al. (2018) colorectal cancer public dataset*
+    - *final training with images from "Suolisyöpä Keski-Suomessa 2000-2015" project*
+    
+*Classes*:
+
+- **0**: *other*
+- **1**: *stroma*
+- **2**: *tumor*
+
 
 ## Syötekuvat / Input images
 
@@ -63,6 +78,7 @@ Luokat:
 - SETUP_3 -malli: 
      - kuvien normalisointiin käytettävät keskiarvot = [0.6979, 0.4694, 0.6644] ja keskihajonnat = [0.1371, 0.1540, 0.1269]
      - käytä googlenet-arkkitehtuuria, ilman ImageNet-esiopetusta
+
 ---
 
 - *input size of all models is 224 x 224 px$^2$*
