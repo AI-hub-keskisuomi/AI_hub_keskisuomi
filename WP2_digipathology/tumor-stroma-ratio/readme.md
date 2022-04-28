@@ -90,4 +90,4 @@ Luokat:
     
 - *SETUP_3 -model:* 
     - *means and standard deviations for the normalization of the images are: means = [0.6979, 0.4694, 0.6644] and stds = [0.1371, 0.1540, 0.1269]*
-    - *use googlenet-architecture **without ImageNet-pre-training** *
+    - *use googlenet-architecture **without ImageNet-pre-training***
