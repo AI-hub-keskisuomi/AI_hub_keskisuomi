@@ -56,9 +56,6 @@ Luokat:
 - syötekoko kaikille malleille 224 x 224 px$^2$
 - mallit on koulutettu Macenko-normalisoiduilla kuvilla
 
-- *input size of all models is 224 x 224 px$^2$*
-- *models have been trained with Macenko-normalized images*
-
 - SETUP_1 - ja SETUP_2 -mallit:
     - kuvien normalisointiin käytettävät keskiarvot = [0.485, 0.456, 0.406] ja keskihajonnat = [0.229, 0.224, 0.225]
     - käytä vgg19-arkkitehtuuria, joka on esiopetettu ImageNetillä
@@ -66,6 +63,10 @@ Luokat:
 - SETUP_3 -malli: 
      - kuvien normalisointiin käytettävät keskiarvot = [0.6979, 0.4694, 0.6644] ja keskihajonnat = [0.1371, 0.1540, 0.1269]
      - käytä googlenet-arkkitehtuuria, ilman ImageNet-esiopetusta
+
+
+- *input size of all models is 224 x 224 px$^2$*
+- *models have been trained with Macenko-normalized images*
 
 - *SETUP_1 - and SETUP_2 -models:*
     - *means and standard deviations for the normalization of the images are: means = [0.485, 0.456, 0.406] and stds = [0.229, 0.224, 0.225]*
