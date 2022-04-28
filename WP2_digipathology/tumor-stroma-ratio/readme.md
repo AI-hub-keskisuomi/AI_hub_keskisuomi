@@ -63,7 +63,7 @@ Luokat:
 - SETUP_3 -malli: 
      - kuvien normalisointiin käytettävät keskiarvot = [0.6979, 0.4694, 0.6644] ja keskihajonnat = [0.1371, 0.1540, 0.1269]
      - käytä googlenet-arkkitehtuuria, ilman ImageNet-esiopetusta
-
+---
 
 - *input size of all models is 224 x 224 px$^2$*
 - *models have been trained with Macenko-normalized images*
