@@ -68,7 +68,7 @@ Luokat:
 
 ## Syötekuvat / Input images
 
-- syötekoko kaikille malleille 224 x 224 px$\^2$
+- syötekoko kaikille malleille 224 x 224 $\px^2$
 - mallit on koulutettu Macenko-normalisoiduilla kuvilla
 
 - SETUP_1 - ja SETUP_2 -mallit:
@@ -81,7 +81,7 @@ Luokat:
 
 ---
 
-- *input size of all models is 224 x 224 px$\^2$*
+- *input size of all models is 224 x 224 $\px^2$*
 - *models have been trained with Macenko-normalized images*
 
 - *SETUP_1 - and SETUP_2 -models:*
