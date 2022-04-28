@@ -30,23 +30,20 @@ Kansiossa **models** on saatavilla kolme erilaista paksusuolensyövästä otetui
 - **SETUP_1_vgg19_FINAL.pt**: 
     - esiopetus: ImageNet ja Kather et. al. (2018) julkaisema datasetti
     - lopullinen opetus: "Suolisyöpä Keski-Suomessa 2000-2015" -hankkeen kuvat
-
-    *- pre-training: ImageNet and Kather et. al. (2018) colorectal cancer public dataset*
-    *- final training with images from "Suolisyöpä Keski-Suomessa 2000-2015" project*
+    - *pre-training: ImageNet and Kather et. al. (2018) colorectal cancer public dataset*
+    - *final training with images from "Suolisyöpä Keski-Suomessa 2000-2015" project*
     
 - **SETUP_2_vgg19_FINAL.pt**:
     - esiopetus ImageNet
     - lopullinen opetus: "Suolisyöpä Keski-Suomessa 2000-2015" -hankkeen kuvat
-
-    *- pre-training: ImageNet*
-    *- final training with images from "Suolisyöpä Keski-Suomessa 2000-2015" project*
+    - *pre-training: ImageNet*
+    - *final training with images from "Suolisyöpä Keski-Suomessa 2000-2015" project*
     
 - **SETUP_3_googlenet_FINAL.pt**: 
     - esiopetus Kather et. al. (2018) julkaisema datasetti
     - lopullinen opetus: "Suolisyöpä Keski-Suomessa 2000-2015"-hankkeen kuvat
-    
-    *- pre-training: Kather et. al. (2018) colorectal cancer public dataset*
-    *- final training with images from "Suolisyöpä Keski-Suomessa 2000-2015" project*
+    - *pre-training: Kather et. al. (2018) colorectal cancer public dataset*
+    - *final training with images from "Suolisyöpä Keski-Suomessa 2000-2015" project*
     
 Luokat:
 
@@ -59,8 +56,8 @@ Luokat:
 - syötekoko kaikille malleille 224 x 224 px$^2$
 - mallit on koulutettu Macenko-normalisoiduilla kuvilla
 
-*- input size of all models is 224 x 224 px$^2$*
-*- models have been trained with Macenko-normalized images*
+- *input size of all models is 224 x 224 px$^2$*
+- *models have been trained with Macenko-normalized images*
 
 - SETUP_1 - ja SETUP_2 -mallit:
     - kuvien normalisointiin käytettävät keskiarvot = [0.485, 0.456, 0.406] ja keskihajonnat = [0.229, 0.224, 0.225]
@@ -70,10 +67,10 @@ Luokat:
      - kuvien normalisointiin käytettävät keskiarvot = [0.6979, 0.4694, 0.6644] ja keskihajonnat = [0.1371, 0.1540, 0.1269]
      - käytä googlenet-arkkitehtuuria, ilman ImageNet-esiopetusta
 
-*- SETUP_1 - and SETUP_2 -models:*
-    *- means and standard deviations for the normalization of the images are: means = [0.485, 0.456, 0.406] and stds = [0.229, 0.224, 0.225]*
-    *- use vgg19-architecture pre-trained with ImageNet*
+- *SETUP_1 - and SETUP_2 -models:*
+    - *means and standard deviations for the normalization of the images are: means = [0.485, 0.456, 0.406] and stds = [0.229, 0.224, 0.225]*
+    - *use vgg19-architecture pre-trained with ImageNet*
     
-*- SETUP_3 -model:* 
-    *- means and standard deviations for the normalization of the images are: means = [0.6979, 0.4694, 0.6644] and stds = [0.1371, 0.1540, 0.1269]*
-    *- use googlenet-architecture **without ImageNet-pre-training** *
+- *SETUP_3 -model:* 
+    - *means and standard deviations for the normalization of the images are: means = [0.6979, 0.4694, 0.6644] and stds = [0.1371, 0.1540, 0.1269]*
+    - *use googlenet-architecture **without ImageNet-pre-training** *
