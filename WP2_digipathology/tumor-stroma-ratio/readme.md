@@ -28,14 +28,17 @@ Kansiossa **models** on saatavilla kolme erilaista paksusuolensyövästä otetui
 - **SETUP_1_vgg19_FINAL.pt**: 
     - esiopetus: ImageNet ja Kather et. al. (2018) julkaisema datasetti
     - lopullinen opetus: "Suolisyöpä Keski-Suomessa 2000-2015" -hankkeen kuvat
+    - validointitarkkuus 97,8 %
     
 - **SETUP_2_vgg19_FINAL.pt**:
     - esiopetus ImageNet
     - lopullinen opetus: "Suolisyöpä Keski-Suomessa 2000-2015" -hankkeen kuvat
+    - validointitarkkuus 97,4 %
     
 - **SETUP_3_googlenet_FINAL.pt**: 
     - esiopetus Kather et. al. (2018) julkaisema datasetti
     - lopullinen opetus: "Suolisyöpä Keski-Suomessa 2000-2015"-hankkeen kuvat
+    - validointitarkkuus 97,7 %
     
 Luokat:
 
@@ -50,14 +53,17 @@ Luokat:
 - **SETUP_1_vgg19_FINAL.pt**: 
     - *pre-training: ImageNet and Kather et. al. (2018) colorectal cancer public dataset*
     - *final training with images from "Suolisyöpä Keski-Suomessa 2000-2015" project*
+    - *validation accuracy 97.8 %*
     
 - **SETUP_2_vgg19_FINAL.pt**:
     - *pre-training: ImageNet*
     - *final training with images from "Suolisyöpä Keski-Suomessa 2000-2015" project*
+    - *validation accuracy 97.4 %*
     
 - **SETUP_3_googlenet_FINAL.pt**: 
     - *pre-training: Kather et. al. (2018) colorectal cancer public dataset*
     - *final training with images from "Suolisyöpä Keski-Suomessa 2000-2015" project*
+    - *validation accuracy 97.8 %*
     
 *Classes*:
 
