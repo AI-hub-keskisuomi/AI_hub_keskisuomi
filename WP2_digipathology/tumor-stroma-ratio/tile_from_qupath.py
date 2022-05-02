@@ -90,3 +90,28 @@ def tile_annotations(width, height, polygon, img, name, label, size, overlap, pe
                     count+=1
                     
     return count
+
+def plot_examples(n_images, imgs_dir, labels):
+
+    for j in range(len(labels)):
+
+        rows = int(np.sqrt(n_images))
+        cols = int(np.sqrt(n_images))
+
+        fig = plt.figure(figsize = (15, 15))
+
+        for i in range(rows*cols):
+    
+            path = os.path.join(imgs_dir+labels[j]+"/")
+            print(path)
+            ax = fig.add_subplot(rows, cols, i+1)
+
+            img_path = random.choice(os.listdir(path))
+            img_path = os.path.join(path, img_path)
+            image = Image.open(img_path)
+
+            ax.imshow(image)
+
+            label = labels[j]
+            ax.set_title(label)
+            ax.axis('off')
