@@ -88,4 +88,6 @@ Luokat:
 
 # Kuvien pilkkominen QuPath-työkalulla tehdyistä annotoinneista / Tiling from QuPath-annotations
 
-Opetusdata on pilkottu QuPath-työkaluilla tehdyistä annotoinneista. Tiedosto ***tile_from_qupath.py*** sisältää python-skriptin, jonka avulla saa pilkottua annotoidut kohdat kuvatiiliksi. Ohjeet skriptin käyttöön löytyy tiedostosta. Tarvittavat kirjastot ovat 
+Opetusdata on pilkottu QuPath-työkaluilla tehdyistä annotoinneista. Tiedosto ***tile_from_qupath.py*** sisältää python-skriptin, jonka avulla saa pilkottua annotoidut kohdat kuvatiiliksi. Ohjeet ja tarvittavat kirjastot skriptin käyttöön löytyvät tiedoton alusta.
+
+*Training data is tiled from QuPath-annotations using python-script ***tile_from_qupath.py***. Instructions and libraries needed to run the script are included in the beginning of the file.*
