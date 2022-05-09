@@ -24,7 +24,7 @@ TSR arvioidaan kasvaimen alueelta kohdasta, jossa on eniten stroomaa. Näkymäss
 Kun TSR ennustetaan automaattisesti, koko näytteen alue pilkotaan pienempiin kuvatiiliin ja malli ennustaa kullekin kuvatiilelle luokan. Luokkia on kolme: strooma, kasvain, muu. Laskemalla strooman osuus kasvain- ja stroomatiilten kokonaismäärästä, saadaan TSR.
 
 
-## Konvoluutioneuroverkkomallit / Convolutional neural network models
+## Konvoluutioneuroverkkomallit
 
 Kansiossa **models** on saatavilla kolme erilaista paksusuolensyövästä otetuilla histopatologisilla kuvilla opetettua konvoluutioneuroverkkoluokitinta.
 
@@ -49,33 +49,7 @@ Luokat:
 - **1**: strooma
 - **2**: kasvain
 
----
-
-*Three CNNs trained with histopathological images from colorectal cancer can be downloaded from the **models** -folder.*
-
-- **SETUP_1_vgg19_FINAL.pt**: 
-    - *pre-training: ImageNet and Kather et. al. (2018) colorectal cancer public dataset*
-    - *final training with images from "Suolisyöpä Keski-Suomessa 2000-2015" project*
-    - *validation accuracy 97.8 %*
-    
-- **SETUP_2_vgg19_FINAL.pt**:
-    - *pre-training: ImageNet*
-    - *final training with images from "Suolisyöpä Keski-Suomessa 2000-2015" project*
-    - *validation accuracy 97.4 %*
-    
-- **SETUP_2_googlenet_FINAL.pt**: 
-    - *pre-training: ImageNet*
-    - *final training with images from "Suolisyöpä Keski-Suomessa 2000-2015" project*
-    - *validation accuracy 97.2 %*
-    
-*Classes*:
-
-- **0**: *other*
-- **1**: *stroma*
-- **2**: *tumor*
-
-
-### Syötekuvat / Input images
+### Syötekuvat
 
 - syötekoko kaikille malleille 224 x 224 px<sup>2</sup>
 - kuvatiilet on pilkottu siten, että niissä on korkeintaan 10 % taustaa
@@ -83,18 +57,9 @@ Luokat:
 - kuvien normalisointiin käytettävät keskiarvot = [0.485, 0.456, 0.406] ja keskihajonnat = [0.229, 0.224, 0.225]
 - käytä kaikkien mallien kohdalla ImageNet-esiopetettua verkkoa
 
-- *input size of all models is 224 x 224 px<sup>2</sup>*
-- *the maximum amount of background in image tiles is 10 %*
-- *models have been trained with Macenko-normalized images*
-- *means and standard deviations for the normalization of the images are: means = [0.485, 0.456, 0.406] and stds = [0.229, 0.224, 0.225]*
-- *use networks pre-trained with ImageNet*
-
-### Kuvien pilkkominen QuPath-työkalulla tehdyistä annotoinneista / Tiling from QuPath-annotations
+### Kuvien pilkkominen QuPath-työkalulla tehdyistä annotoinneista
 
 Opetusdata on pilkottu QuPath-työkaluilla tehdyistä annotoinneista. Tiedosto ***tile_from_qupath.py*** sisältää python-skriptin, jonka avulla saa pilkottua annotoidut kohdat kuvatiiliksi. Ohjeet ja tarvittavat kirjastot skriptin käyttöön löytyvät tiedoton alusta.
-
-*Training data is tiled from QuPath-annotations using python-script ***tile_from_qupath.py***. Instructions and libraries needed to run the script are included in the beginning of the file.*
-
 
 ---
 
