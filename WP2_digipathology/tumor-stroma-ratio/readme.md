@@ -85,3 +85,7 @@ Luokat:
 - *models have been trained with Macenko-normalized images*
 - *means and standard deviations for the normalization of the images are: means = [0.485, 0.456, 0.406] and stds = [0.229, 0.224, 0.225]*
 - *use networks pre-trained with ImageNet*
+
+# Kuvien pilkkominen QuPath-työkalulla tehdyistä annotoinneista / Tiling from QuPath-annotations
+
+Opetusdata on pilkottu QuPath-työkaluilla tehdyistä annotoinneista. Tiedosto 
