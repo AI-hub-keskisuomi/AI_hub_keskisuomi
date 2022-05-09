@@ -21,7 +21,7 @@ Kun TSR ennustetaan automaattisesti, koko näytteen alue pilkotaan pienempiin ku
 
 *When predicting TSR automatically, entire sample is tiled to smaller image tiles and the model predicts class for each tile. There are three classes: stroma, tumor and other. TSR is the percentage of stroma tiles from the total amount of stroma plus tumor tiles.*
 
-# Konvoluutioneuroverkkomallit / Convolutional neural network models
+## Konvoluutioneuroverkkomallit / Convolutional neural network models
 
 Kansiossa **models** on saatavilla kolme erilaista paksusuolensyövästä otetuilla histopatologisilla kuvilla opetettua konvoluutioneuroverkkoluokitinta.
 
@@ -72,7 +72,7 @@ Luokat:
 - **2**: *tumor*
 
 
-## Syötekuvat / Input images
+### Syötekuvat / Input images
 
 - syötekoko kaikille malleille 224 x 224 px<sup>2</sup>
 - kuvatiilet on pilkottu siten, että niissä on korkeintaan 10 % taustaa
@@ -86,7 +86,7 @@ Luokat:
 - *means and standard deviations for the normalization of the images are: means = [0.485, 0.456, 0.406] and stds = [0.229, 0.224, 0.225]*
 - *use networks pre-trained with ImageNet*
 
-# Kuvien pilkkominen QuPath-työkalulla tehdyistä annotoinneista / Tiling from QuPath-annotations
+### Kuvien pilkkominen QuPath-työkalulla tehdyistä annotoinneista / Tiling from QuPath-annotations
 
 Opetusdata on pilkottu QuPath-työkaluilla tehdyistä annotoinneista. Tiedosto ***tile_from_qupath.py*** sisältää python-skriptin, jonka avulla saa pilkottua annotoidut kohdat kuvatiiliksi. Ohjeet ja tarvittavat kirjastot skriptin käyttöön löytyvät tiedoton alusta.
 
