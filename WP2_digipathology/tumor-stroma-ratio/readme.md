@@ -75,11 +75,13 @@ Luokat:
 ## Syötekuvat / Input images
 
 - syötekoko kaikille malleille 224 x 224 px<sup>2</sup>
+- kuvatiilet on pilkottu siten, että niissä on korkeintaan 10 % taustaa
 - mallit on koulutettu Macenko-normalisoiduilla kuvilla
 - kuvien normalisointiin käytettävät keskiarvot = [0.485, 0.456, 0.406] ja keskihajonnat = [0.229, 0.224, 0.225]
 - käytä kaikkien mallien kohdalla ImageNet-esiopetettua verkkoa
 
 - *input size of all models is 224 x 224 px<sup>2</sup>*
+- *the maximum amount of background in image tiles is 10 %*
 - *models have been trained with Macenko-normalized images*
 - *means and standard deviations for the normalization of the images are: means = [0.485, 0.456, 0.406] and stds = [0.229, 0.224, 0.225]*
 - *use networks pre-trained with ImageNet*
