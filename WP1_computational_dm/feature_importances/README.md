@@ -1,4 +1,4 @@
-## Psykologisten tekijöiden vaikuttavuuden arvoinointi Muutosmatka-interventiossa
+## Psykologisten tekijöiden vaikuttavuuden arviointi Muutosmatka-interventiossa
 ### Case 1: Piirteiden tärkeysarvojen tarkastelu
 
 Psykologiset tekijät voidaan jakaa neljään kategoriaan:
