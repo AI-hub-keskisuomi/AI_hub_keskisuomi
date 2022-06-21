@@ -28,11 +28,9 @@ Saadut tulokset perustuivat regressioennusteisiin siten, että painon suhteellis
 
 Tärkeysarvojen tulokset satunnaismetsäregressiomallilla:
 
-Mean |  | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
+Mean |  |  | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
+1 | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
 Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
-
-
 
 
 
