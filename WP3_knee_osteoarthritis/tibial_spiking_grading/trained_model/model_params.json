@@ -1,0 +1,10 @@
+{
+    "batch_size": 4,
+    "gamma": 0.115,
+    "img_size": 224,
+    "learning_rate": 0.0002,
+    "model": "resnext",
+    "num_epochs": 25,
+    "optimizer": "adam",
+    "step_size": 4
+}
