@@ -30,7 +30,7 @@ Tärkeysarvojen tulokset satunnaismetsäregressiomallilla:
 
 --- |  | Mean | (Std) | Median | 
 --- | --- | --- | --- |--- |
-Seconds | 301 | 283 | 290 | 286 | 
+1 | WBSI | 283 | 290 | 286 | 
 
 
 
