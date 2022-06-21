@@ -1,4 +1,4 @@
-## Psykologisten tekijöiden vaikuttavuuden arvoinointi painonhallintaan
+## Psykologisten tekijöiden vaikuttavuuden arvoinointi Muutosmatka-interventiossa
 ### Case 1: Piirteiden tärkeysarvojen tarkastelu
 
 Psykologiset tekijät voidaan jakaa neljään kategoriaan:
@@ -12,7 +12,7 @@ Potilaille on mahdollista laskea pyskologisten tekijöiden pisteytykset kyselylo
 Terveyteen liittyväksi riskitekijäksi valittiin kohdehenkilöiden painotiedot ja psykologisten tekijöitä verrattiin painotietoihin. Tavoitteena oli pyrkiä tunnistamaan, mitkä psykologiset tekijät vaikuttavat eniten painon muutoksiin. Tuloksia oli mahdollista tarkastella tilastollisesti korrelaatioanalyyseillä ja koneoppimislähtöisesti piirteiden tärkeysarvojen tarkasteluilla. Tietyillä luokittelu- ja regressiomalleilla on mahdollista laskea painoarvot piirteille, jotka maksimoivat ennustustarkkuuden. Tällaisia malleja ovat esimerkiksi satunnaismetsä (eng. random forest) ja "Extremely randomized trees". 
 
 Tärkeysarvojen laskennat sisälsivät seuraavat vaiheet:
-1. aa
-
+1. Potilaiden rajaus niihin henkilöihin, jotka olivat mukana koko Muutosmatka-intervention ajan eli 36 kk. Potilasmäärä rajautui 78 potilaaseen.  
+2. 
 
 
