@@ -24,6 +24,8 @@ Tärkeysarvojen laskennat sisälsivät seuraavat vaiheet:
 
 Saadut tulokset perustuivat regressioennusteisiin siten, että painon suhteellista muutosta ennustettiin jatkuvana muuttujana. Lisäksi mallien suorituskykyä tarkasteltiin luokittelussa siten, että ennustettavana muuttujana oli luokkatieto painon suhteellisesta muutoksesta (0 = painon suhteellinen muutos on alle 2,5 % ja 1 = painon suhteellinen muutos on yli 2,5 %). 
 
+#### Tulokset
+
 
 
 
