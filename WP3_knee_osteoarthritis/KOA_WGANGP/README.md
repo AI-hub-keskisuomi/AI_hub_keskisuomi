@@ -9,9 +9,9 @@ Provided training/generation scrips for generating synthetic x-ray images with W
 - Augment existing data in classification task
 - Explore laten variables
 
-Solarized dark             |  Solarized Ocean
-:-------------------------:|:-------------------------:
-![](image27.gif)  |  ![](https://...Ocean.png)
+Synthetic Image           | Synthetic Image  |  Synthetic Image 
+:-------------------------:|:-------------------------:|:-------------------------:
+![](image27.gif)  |  ![](image25.gif) |  ![](image26.gif)
 
 
 >Synthetic X-Rays interpolation in latent variable space.
