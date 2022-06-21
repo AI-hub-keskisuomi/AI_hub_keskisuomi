@@ -26,11 +26,14 @@ Saadut tulokset perustuivat regressioennusteisiin siten, että painon suhteellis
 
 #### Tulokset
 
-Tärkeysarvojen tulokset satunnaismetsäregressiomallilla:
+Summamuuttujien tärkeysarvojen tulokset satunnaismetsäregressiomallilla:
 
 ---  |  | Mean | (Std) | Median | 
 --- | --- | --- | --- |--- |
-1 | WBSI | 0.297 | (0,005) | 0,298 | 
+1 | WBSI |  |  |  | 
+2 | AAQ | 0.297 | (0,005) | 0,298 | 
+3 | DASS | 0.297 | (0,005) | 0,298 | 
+4 | GSE | 0.297 | (0,005) | 0,298 | 
 
 
 
