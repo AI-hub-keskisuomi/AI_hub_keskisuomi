@@ -32,9 +32,9 @@ Summamuuttujien tärkeysarvojen tulokset satunnaismetsäluokittelumallilla:
 ---  |  | Mean | (Std) | Median | 
 --- | --- | --- | --- |--- |
 1 | WBSI | 0,342  | (0,008)  | 0,343  | 
-2 | AAQ |  |  |  | 
-3 | DASS |  |  |  | 
-4 | GSE |  |  |  | 
+2 | AAQ | 0,247 | (0,006) | 0,248 | 
+3 | DASS | 0,230  | (0,006)  | 0,230 | 
+4 | GSE | 0,181  | (0,005)  | 0,181 | 
 
 Summamuuttujien tärkeysarvojen tulokset Extra Tree -luokittelumallilla:
 ---  |  | Mean | (Std) | Median | 
