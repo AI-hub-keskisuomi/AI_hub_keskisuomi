@@ -15,7 +15,7 @@ Tärkeysarvojen laskennat sisälsivät seuraavat vaiheet:
 1. Potilaiden rajaus niihin henkilöihin, jotka olivat mukana koko Muutosmatka-intervention ajan eli 36 kk. Potilasmäärä rajautui 78 potilaaseen.  
 2. Suhteellisten painon muutosten laskenta intervention alusta intervention loppuun.
 3. Psykologisten pisteytyksien muutoksien laskenta yksittäisille psykologisille muuttujille ja neljän pääkategorian summamuuttujille intervention alusta intervention loppuun.
-4. Datan skaalaus nollakeskiarvoiseksi ja yksikköhajonnalle Z-score muunnoksella.
-5. 
+4. Puuttuvien arvojen käsittely. Puuttuvat summamuuttujat imputoitiin mediaani-imputoinnilla ja puuttuvien yksittäisten muuttujien imputoinnissa käytettiin 10-lähimmän naapurin imputointia. 
+5. Datan skaalaus nollakeskiarvoiseksi ja yksikköhajonnalle Z-score muunnoksella.
 
 
