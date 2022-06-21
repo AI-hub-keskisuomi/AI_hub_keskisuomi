@@ -18,8 +18,7 @@ Tärkeysarvojen laskennat sisälsivät seuraavat vaiheet:
 4. Puuttuvien arvojen käsittely. Puuttuvat summamuuttujat imputoitiin mediaani-imputoinnilla ja puuttuvien yksittäisten muuttujien imputoinnissa käytettiin 10-lähimmän naapurin imputointia. 
 5. Datan skaalaus nollakeskiarvoiseksi ja yksikköhajonnalle Z-score muunnoksella.
 6. Verkkohakua (eng. Grid search) oli mahdollista käyttää mallien parametrien optimointeihin.
-
-Koneoppimismalleihin liittyy mallien satunnaisuuteen perustuvaa laskennallista epävakautta. Tämän vuoksi suoritettiin yhteensä 100 uudelleen ajoa. Lisäksi malleihin liittyy riski ylioppia aineisto, jonka vuoksi tulokset voivat vaikuttaa hyviltä mikäli opetukseen ja testaukseen käytetään samaa dataa. Ristiinvalidointi on keino ehkäistä ylioppimista. Ideana on pilkkoa data opetus- ja testidataksi määrätty määrä kertoja siten että kukin näyte on testiaineistossa tasan yhden kerran. Työssä käytettiin viisinkertaista ristiinvalidointia, joka toistettiin kullakin ajolla viisi kertaa.    
+7. Koneoppimismalleihin liittyy mallien satunnaisuuteen perustuvaa laskennallista epävakautta. Tämän vuoksi suoritettiin yhteensä 100 uudelleen ajoa. Lisäksi malleihin liittyy riski ylioppia aineisto, jonka vuoksi tulokset voivat vaikuttaa hyviltä mikäli opetukseen ja testaukseen käytetään samaa dataa. Ristiinvalidointi on keino ehkäistä ylioppimista. Ideana on pilkkoa data opetus- ja testidataksi määrätty määrä kertoja siten että kukin näyte on testiaineistossa tasan yhden kerran. Työssä käytettiin viisinkertaista ristiinvalidointia, jossa datan jaottelu suoritettiin yhteensä viisi kertaa kullakin ajolla.    
 
 
 
