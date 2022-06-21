@@ -27,7 +27,6 @@ Saadut tulokset perustuivat regressioennusteisiin siten, että painon suhteellis
 #### Tulokset
 
 Summamuuttujien tärkeysarvojen tulokset satunnaismetsäluokittelumallilla:
-
 ---  |  | Mean | (Std) | Median | 
 --- | --- | --- | --- |--- |
 1 | WBSI |  |  |  | 
