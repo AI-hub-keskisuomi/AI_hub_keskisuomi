@@ -55,9 +55,9 @@ Summamuuttujien tärkeysarvojen tulokset satunnaismetsäregressiomallilla:
 Summamuuttujien tärkeysarvojen tulokset Extra Tree -regressiomallilla:
 ---  |  | Mean | (Std) | Median | 
 --- | --- | --- | --- |--- |
-1 | DASS |  | | | 
-2 | AAQ | | | | 
-3 | GSE | | | | 
-4 | WBSI | | | | 
+1 | DASS | 0,278 | (0,006) | 0,278 | 
+2 | AAQ | 0,250 | (0,005) | 0,251 | 
+3 | GSE | 0,241 | (0,005) | 0,241 | 
+4 | WBSI | 0,231 | (0,005) | 0,231 | 
 
 
