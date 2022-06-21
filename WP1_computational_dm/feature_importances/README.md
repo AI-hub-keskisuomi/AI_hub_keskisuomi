@@ -26,7 +26,7 @@ Saadut tulokset perustuivat regressioennusteisiin siten, että painon suhteellis
 
 #### Tulokset
 
-Tulosten todenperäisyyttä oli mahdollista arvioida käyttämällä kahta eri mallia ja vertailla mallien tuloksia. Toinen lähestymistapa tulosten arviointeihin oli laskea mallien ennustustarkkuudet sekä luokittelu- että regressiotehtävässä. 
+Tulosten todenperäisyyttä oli mahdollista arvioida käyttämällä kahta eri mallia ja vertailla mallien tuloksia. Toinen lähestymistapa tulosten arviointeihin oli laskea mallien ennustustarkkuudet sekä luokittelu- että regressiotehtävässä. Keskimääräiset ennustustarkkuudet 0,61 sekä satunnaismetsäluokittelumallilla että Extra Tree -luokittelumallilla, kun piirteinä käytettiin psykologisten summamuuttujien muutosta. Samoilla piirteillä satunnaismetsäregressiomalli ja Extra Tree -regressiomalli antoivat ennustetun ja todellisen suhteellisen painoarvon muutoksen välisiksi korrelaatiokertoimiksi r=0,225 ja r=0,275. Korrelaatiokertoimet ovat selkeästi alhaiset, joten regressiomalleilla saatuihin tuloksiin täytyy suhtautua varauksin. Sen sijaan luokittelumallien tulokset ovat samankaltaisia piirteiden tärkeysarvojen osalta ja 61 % luokittelutulos on kohtalainen.       
 
 Summamuuttujien tärkeysarvojen tulokset satunnaismetsäluokittelumallilla:
 ---  |  | Mean | (Std) | Median | 
