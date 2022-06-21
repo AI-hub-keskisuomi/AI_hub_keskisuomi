@@ -14,7 +14,7 @@ Terveyteen liittyväksi riskitekijäksi valittiin kohdehenkilöiden painotiedot 
 Tärkeysarvojen laskennat sisälsivät seuraavat vaiheet:
 1. Potilaiden rajaus niihin henkilöihin, jotka olivat mukana koko Muutosmatka-intervention ajan eli 36 kk. Potilasmäärä rajautui 78 potilaaseen.  
 2. Suhteellisten painon muutosten laskenta intervention alusta intervention loppuun.
-3. Psykologisten pisteytyksien muutoksien laskenta intervention alusta intervention loppuun.
+3. Psykologisten pisteytyksien muutoksien laskenta yksittäisille psykologisille muuttujille ja neljän kategorian summamuuttujille intervention alusta intervention loppuun.
 4. 
 
 
