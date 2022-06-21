@@ -29,7 +29,7 @@ Saadut tulokset perustuivat regressioennusteisiin siten, että painon suhteellis
 Tärkeysarvojen tulokset satunnaismetsäregressiomallilla:
  |  | Mean | (Std) | Median | 
 --- | --- | --- | --- |--- |
-WBSI | 301 | 283 | 290 | 286 | 
+
 
 
 
