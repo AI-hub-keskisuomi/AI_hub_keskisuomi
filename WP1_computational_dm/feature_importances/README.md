@@ -26,7 +26,7 @@ Saadut tulokset perustuivat regressioennusteisiin siten, että painon suhteellis
 
 #### Tulokset
 
-Tulosten todenperäisyyttä oli mahdollista arvioida käyttämällä kahta eri mallia ja vertailla mallien tuloksia. Toinen lähestymistapa tulosten arviointeihin oli laskea mallien ennustustarkkuudet sekä luokittelu- että regressiotehtävässä. Keskimääräiset ennustustarkkuudet olivat 61 % sekä satunnaismetsäluokittelumallilla että Extra Tree -luokittelumallilla, kun piirteinä käytettiin psykologisten summamuuttujien muutosta. Samoilla piirteillä satunnaismetsäregressiomalli ja Extra Tree -regressiomalli antoivat ennustettujen ja todellisten suhteellisten painoarvon muutoksien välisiksi korrelaatiokertoimiksi r=0,225 ja r=0,275. Korrelaatiokertoimet ovat selkeästi alhaiset, joten regressiomalleilla saatuihin tuloksiin täytyy suhtautua varauksin. luokittelumallien tulokset ovat samankaltaisia piirteiden tärkeysarvojen osalta ja näin ollen tulokset ovat hyvin suuntaa antavia. Keskimääräiset luokittelutarkkuudet ovat tosin hieman heikkoja. Kaikilla neljällä koneoppimismallilla on suuri määrä optimoitavia parametreja, joita muokkaamalla on mahdollisuus pyrkiä lisäämään ennustustarkkuuksia (esimerkiksi verkkohaulla).       
+Tulosten todenperäisyyttä oli mahdollista arvioida käyttämällä kahta eri mallia ja vertailla mallien tuloksia. Toinen lähestymistapa tulosten arviointeihin oli laskea mallien ennustustarkkuudet sekä luokittelu- että regressiotehtävässä. Keskimääräiset ennustustarkkuudet olivat 61 % sekä satunnaismetsäluokittelumallilla että Extra Tree -luokittelumallilla, kun piirteinä käytettiin psykologisten summamuuttujien muutosta. Samoilla piirteillä satunnaismetsäregressiomalli ja Extra Tree -regressiomalli antoivat ennustettujen ja todellisten suhteellisten painoarvon muutoksien välisiksi korrelaatiokertoimiksi r=0,225 ja r=0,275. Korrelaatiokertoimet ovat selkeästi alhaiset, joten regressiomalleilla saatuihin tuloksiin täytyy suhtautua varauksin. luokittelumallien tulokset ovat samankaltaisia piirteiden tärkeysarvojen osalta ja näin ollen tulokset ovat hyvin suuntaa antavia. Keskimääräiset luokittelutarkkuudet ovat tosin hieman heikkoja.   
 
 Summamuuttujien tärkeysarvojen tulokset satunnaismetsäluokittelumallilla:
 ---  |  | Mean | (Std) | Median | 
@@ -61,3 +61,8 @@ Summamuuttujien tärkeysarvojen tulokset Extra Tree -regressiomallilla:
 4 | WBSI | 0,231 | (0,005) | 0,231 | 
 
 Tärkeysarvotulokset yksittäisille psykologisille muuttujille ja WBSI-muuttujan alakategorioille ovat tiedostossa Tarkeysarvojen_tuloksia.xlsx
+
+#### Jatkokehitys
+
+Kaikilla neljällä koneoppimismallilla on suuri määrä optimoitavia parametreja, joita muokkaamalla on mahdollisuus pyrkiä lisäämään ennustustarkkuuksia hyödyntäen esimerkiksi verkkohakua. Mallien parametrit vaativat kuitenkin hyviä alkuarvauksia, koska verkkohaku testaa käyttäjän antamien parametrien kombinaatioita. Hyvien alkuarvauksien valinta vaatii syvällisempää perehtymistä käytettyihin malleihin aiheesiin liittyvien lähdepaperien kautta.      
+
