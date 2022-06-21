@@ -10,6 +10,7 @@
     - Assumes training data in folder called training_data including folders "data" for knee x-rays and "target" for segmentation-masks
     - Assumes the last character in image names to specify which side knee is in the x-ray for creating the validation split so that knees from the same patient end up in the same side of the split.
  - Prediction and feature-calculation on DICOM-files with predict.py using commandline arguments:
+ ```
   -h, --help            show this help message and exit
   --architecture {unet,drn}, -a {unet,drn}
                         Architecture of the loaded model, choices: unet, drn
@@ -17,11 +18,8 @@
                         Specify the file in which the model is stored
   --save, -sv           save the images as they are processed
   --input-dir I, -i I   Directory with dicom images to predict or the path to a single dicom-image
-  --n-classes NC, -nc NC
-                        Number of classes in the used model
-  --n-channels NCH, -nch NCH
-                        Number of channels in input images
   --scale SCALE, -s SCALE
-                        Downscaling factor of the images
+                        Downscaling factor of the images, defaults to 1 (no downscaling)
   --mask-threshold MASK_THRESHOLD, -t MASK_THRESHOLD
                         Minimum probability value to consider a mask pixel white
+    ```
