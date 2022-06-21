@@ -26,6 +26,15 @@ Saadut tulokset perustuivat regressioennusteisiin siten, että painon suhteellis
 
 #### Tulokset
 
-Tulosten tarkastelussa käytettiin kahta koneoppimismallia, jotta tulosten todenperäisyyttä on mahdollista arvioida. Toinen lähestymistapa arvioida tulosten todenperäisyyttä oli laskea mallien ennustustarkkuudet.    
+Tärkeysarvojen tulokset satunnaismetsäregressiomallilla:
+
+
+
+Tulosten todenperäisyyttä oli mahdollista arvioida käyttämällä kahta eri mallia ja vertailla mallien tuloksia. Toinen lähestymistapa tulosten arviointeihin oli laskea mallien ennustustarkkuudet sekä luokittelu- että regressiotehtävässä. 
+
+
+
+
+
 
 
