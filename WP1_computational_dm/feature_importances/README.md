@@ -3,7 +3,9 @@
 
 Psykologiset tekijät voidaan jakaa neljään kategoriaan:
 - Psykologinen joustavuus (AAQ-II)
-- 
+- Ajattelutoiminnot (WBSI)
+- Minäpystyvyys (GSE)
+- Mieliala (DASS-21)
 
 
 
