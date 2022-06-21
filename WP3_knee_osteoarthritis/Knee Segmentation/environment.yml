@@ -1,0 +1,22 @@
+# Usage :
+# conda env create --file <path to this file>
+name: torch_env
+channels:
+  - pytorch
+dependencies:
+ - pytorch=1.10.*
+ - torchvision=0.11.*
+ - gdcm=2.8.*
+ - matplotlib-base=3.3.*
+ - numpy=1.19.*
+ - opencv=3.4.*
+ - pandas=0.25.*
+ - pillow=8.0.*
+ - py-opencv=3.4.*
+ - pydicom=2.2.*
+ - pyparsing=3.0.*
+ - scikit-image=0.17.*
+ - scikit-learn=0.22.*
+ - scipy=1.5.*
+ - tk=8.6.*
+ - toolz=0.11.*
