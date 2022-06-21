@@ -26,7 +26,17 @@ Saadut tulokset perustuivat regressioennusteisiin siten, että painon suhteellis
 
 #### Tulokset
 
+Tulosten todenperäisyyttä oli mahdollista arvioida käyttämällä kahta eri mallia ja vertailla mallien tuloksia. Toinen lähestymistapa tulosten arviointeihin oli laskea mallien ennustustarkkuudet sekä luokittelu- että regressiotehtävässä. 
+
 Summamuuttujien tärkeysarvojen tulokset satunnaismetsäluokittelumallilla:
+---  |  | Mean | (Std) | Median | 
+--- | --- | --- | --- |--- |
+1 | WBSI | 0,342  | (0,008)  | 0,343  | 
+2 | AAQ |  |  |  | 
+3 | DASS |  |  |  | 
+4 | GSE |  |  |  | 
+
+Summamuuttujien tärkeysarvojen tulokset Extra Tree -luokittelumallilla:
 ---  |  | Mean | (Std) | Median | 
 --- | --- | --- | --- |--- |
 1 | WBSI |  |  |  | 
@@ -35,8 +45,6 @@ Summamuuttujien tärkeysarvojen tulokset satunnaismetsäluokittelumallilla:
 4 | GSE |  |  |  | 
 
 
-
-Tulosten todenperäisyyttä oli mahdollista arvioida käyttämällä kahta eri mallia ja vertailla mallien tuloksia. Toinen lähestymistapa tulosten arviointeihin oli laskea mallien ennustustarkkuudet sekä luokittelu- että regressiotehtävässä. 
 
 
 
