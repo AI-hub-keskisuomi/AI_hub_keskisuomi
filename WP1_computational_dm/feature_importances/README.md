@@ -61,5 +61,3 @@ Summamuuttujien tärkeysarvojen tulokset Extra Tree -regressiomallilla:
 4 | GSE | | | | 
 
 
-
-
