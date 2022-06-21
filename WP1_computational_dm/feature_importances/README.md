@@ -1,2 +1,7 @@
-## Piirteiden tärkeysarvojen laskenta Muutosryhmädatalle 
+## Psykologisten tekijöiden vaikuttavuuden arvoinointi painonhallintaan
+
+
+
+
+
 
