@@ -123,7 +123,7 @@ def upsample_block (
         use_bias=True ,
         use_dropout=False ,
         drop_value=0.3 ,
-):
+): #sad parenthesis
     x = layers.UpSampling2D ( up_size ) ( x )
     x = layers.Conv2D (
         filters , kernel_size , strides=strides , padding=padding , use_bias=use_bias
