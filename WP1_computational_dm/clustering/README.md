@@ -9,7 +9,7 @@ Psykologiset tekijät voidaan jakaa neljään kategoriaan:
 Potilaille oli mahdollista laskea psykologisten tekijöiden pisteytykset kyselylomakekyselyiden perusteella. Alhaiset arvot AAQ, WBSI ja DASS pisteytyksissä ja korkeat arvot GSE-pistetyksessä kuvaavat hyviä tuloksia. Klusteroinnilla pyrittiin ryhmittelemään psykologisia muuttujia samankaltaisiin ryhmiin alkumittauksessa ja loppumittauksessa. Klusterien lukumäärät valittiin klusterivalidointi-indekseillä. Saaduille klusteriprofiileille laskettiin metadataa, kuten keskiarvo- ja mediaanipainot, suhteelliset painon muutokset loppumittauksessa ja koetun terveyden kolmiportaiset pisteytykset kussakin profiilissa. Itsearviointikyselyssä ykköset kuvasivat hyvää koettua terveyttä, kakkoset kuvasivat kohtalaista terveyttä ja kolmoset kuvasivat huonoa terveyttä. Alkumittausdata laskettiin 177 henkilöltä ja loppumittausdata 78 henkilöltä.  
 
 Klusterointi sisälsi seuraavat vaiheet:
-1. Puuttuvia arvoja oli vain vähän, joten data täydentämisessä käytettiin mediaani-imputointia.
+1. Puuttuvia arvoja oli vain vähän, joten datan täydentämisessä käytettiin mediaani-imputointia.
 2. Viisiportainen koettu terveys skaalattiin kolmiportaiseksi.
 3. Data normalisoitiin Min-max-skaalauksella välille [-1, 1].
 4. Klusteroinnissa käytettiin K-spatialmedians-klusterointia.
