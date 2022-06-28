@@ -19,7 +19,7 @@ Klusterointi sisälsi seuraavat vaiheet:
 #### Tulokset
 
 Klusterivalidointi-indekseistä PBM ja WB suosittelivat alkumittausdatalle kolmea eri ryhmää:
-  | Profiili 1 (N=56)  | Profiili 2 (N=80) | Profiili 3 (N=41) | All (N=177) | Pois lähteneet (N=99)
+| Profiili 1 (N=56)  | Profiili 2 (N=80) | Profiili 3 (N=41) | All (N=177) | Pois lähteneet (N=99)
 ---  | ---  | ---  | ---  | ---  | ---  |
 
 
