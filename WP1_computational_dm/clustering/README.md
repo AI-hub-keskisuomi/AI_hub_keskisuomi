@@ -20,7 +20,7 @@ Klusterointi sisälsi seuraavat vaiheet:
 
 ##### Alkumittausdata 
 
-Klusterivalidointi-indekseistä PBM ja WB suosittelivat alkumittausdatalle kolmea eri ryhmää ja tämä valittiin ryhmien lopulliseksi lukumääräksi. 
+Klusterivalidointi-indekseistä Pakisha-Bandaya-Maulik ja WB suosittelivat alkumittausdatalle kolmea eri ryhmää ja tämä valittiin ryhmien lopulliseksi lukumääräksi. 
 
 Psykologisten muuttujien mediaaniarvot kussakin profiilissa olivat seuraavia:
 ---  | Profiili 1 (N=56)  | Profiili 2 (N=80) | Profiili 3 (N=41) | Kaikki (N=177) 
