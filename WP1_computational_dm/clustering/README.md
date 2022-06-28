@@ -20,6 +20,6 @@ Klusterointi sisälsi seuraavat vaiheet:
 
 Klusterivalidointi-indekseistä PBM ja WB suosittelivat alkumittausdatalle kolmea eri ryhmää:
 ---  | Profiili 1  | Profiili 2 | Profiili 3 | All | Pois lähteneet
----  
+---  | ---  | ---  | ---  | ---  | ---  |
 
 
