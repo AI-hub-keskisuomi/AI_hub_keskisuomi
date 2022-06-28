@@ -27,3 +27,7 @@ AAQ  | 8,5  | 15,0  | 28,0  | 15,0  |
 DASS  | 4,0  | 9,0  | 19,0  | 8,0  |
 GSE  | 35,0  | 28,0  | 28,0  | 30,0  | 
 WBSI  | 27,5  | 40,5  | 56,0  | 40,0  | 
+
+Potilaat jakautuivat psykologisten muuttujien perusteella selkeästi kolmeen eritasoiseen ryhmään.
+
+
