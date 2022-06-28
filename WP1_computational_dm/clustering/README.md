@@ -18,7 +18,9 @@ Klusterointi sisälsi seuraavat vaiheet:
 
 #### Tulokset
 
-Klusterivalidointi-indekseistä PBM ja WB suosittelivat alkumittausdatalle kolmea eri ryhmää, joita voitiin kuvata klusteriprototyyppien avulla:
+Klusterivalidointi-indekseistä PBM ja WB suosittelivat alkumittausdatalle kolmea eri ryhmää. 
+
+Pyskologisten muuttujien mediaaniarvot kussakin profiilissa olivat seuraavia:
 ---  | Profiili 1 (N=56)  | Profiili 2 (N=80) | Profiili 3 (N=41) | All (N=177) | Pois lähteneet (N=99)
 ---  | ---  | ---  | ---  | ---  | ---  |
 
