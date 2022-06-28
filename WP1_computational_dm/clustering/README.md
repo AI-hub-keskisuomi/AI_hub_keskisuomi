@@ -34,8 +34,8 @@ Profiilien 1 ja 2 potilaat kokivat terveytensä paremmaksi kuin profiilin 3 poti
 ---  | Profiili 1 (N=56)  | Profiili 2 (N=80) | Profiili 3 (N=41) | All (N=177) 
 ---  | ---  | ---  | ---  | ---  | 
 terv_tila  |  |   |   |   | 
-1  | ---  | ---  | ---  | ---  | 
-2  | ---  | ---  | ---  | ---  | 
-3  | ---  | ---  | ---  | ---  | 
-Keskiarvo  | ---  | ---  | ---  | ---  | 
+1  | 34  | 42  | 7  | 83  | 
+2  | 14  | 29  | 19  | 62  | 
+3  | 8  | 9  | 15  | 32  | 
+Keskiarvo  | 1,5357  | 1,5875 | 2,1951  | 1,7119  | 
 
