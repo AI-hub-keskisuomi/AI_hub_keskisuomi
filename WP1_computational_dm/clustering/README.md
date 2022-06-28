@@ -12,5 +12,9 @@ Klusterointi sisälsi seuraavat vaiheet:
 1. Puuttuvia arvoja oli vain vähän, joten data täydentämisessä käytettiin mediaani-imputointia.
 2. Viisiportainen koettu terveys skaalattiin kolmiportaiseksi.
 3. Data normalisoitiin Min-max-skaalauksella välille [-1, 1].
-4.   
+4. Klusteroinnissa käytettiin K-spatialmedians-klusterointia.
+5. Klusterointi toistettiin vaihtelemalla ryhmien lukumäärääarvoa välillä [2, 10]. Alkupisteiden valinnassa käytettiin K-means++-klusterointia ja kussakin klusteroinnissa käytettiin sataa replikaattia. 
+6. Kahdeksan tunettua klusterivalidointi-indeksiä valittiin validoimaan klusterien lukumäärätietoja.   
+
+
 
