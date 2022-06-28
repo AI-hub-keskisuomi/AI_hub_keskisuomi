@@ -16,5 +16,5 @@ Klusterointi sisälsi seuraavat vaiheet:
 5. Klusterointi toistettiin vaihtelemalla ryhmien lukumäärääarvoa välillä [2, 10]. Alkupisteiden valinnassa käytettiin K-means++-klusterointia ja kussakin klusteroinnissa käytettiin sataa replikaattia. 
 6. Kahdeksan tunettua klusterivalidointi-indeksiä valittiin validoimaan klusterien lukumäärätietoja.   
 
-
+#### Tulokset
 
