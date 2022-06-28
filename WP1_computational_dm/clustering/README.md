@@ -39,3 +39,4 @@ terv_tila  |  |   |   |   |
 3  | 8  | 9  | 15  | 32  | 
 Keskiarvo  | 1,5357  | 1,5875 | 2,1951  | 1,7119  | 
 
+Tarkastelut suoritettiin myös loppumittausdatalle, josta indeksit löysivät peräti seitsemän profiilia.  
