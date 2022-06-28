@@ -1,4 +1,4 @@
-## Psykologisten tekijöiden vaikuttavuuden arvoinointi Muutosmatka-interventiossa
+## Psykologisten tekijöiden vaikuttavuuden arviointi Muutosmatka-interventiossa
 ### Case 2: Klusterointi
 Psykologiset tekijät voidaan jakaa neljään kategoriaan:
 - Psykologinen joustavuus (AAQ-II)
