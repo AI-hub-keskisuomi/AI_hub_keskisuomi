@@ -18,3 +18,4 @@ Klusterointi sisälsi seuraavat vaiheet:
 
 #### Tulokset
 
+Klusterivalidointi-indekseistä PBM ja WB suosittelivat alkumittausdatalle kolmea eri ryhmää:
