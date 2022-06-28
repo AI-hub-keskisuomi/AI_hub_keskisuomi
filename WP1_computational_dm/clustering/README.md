@@ -20,8 +20,8 @@ Klusterointi sisälsi seuraavat vaiheet:
 
 Klusterivalidointi-indekseistä PBM ja WB suosittelivat alkumittausdatalle kolmea eri ryhmää:
   | Mean | (Std) | Median | 
---- | --- | --- |--- |
-AAQ | 0,342  | (0,008)  | 0,343  | 
-DASS | 0,247 | (0,006) | 0,248 | 
-GSE | 0,230  | (0,006)  | 0,230 | 
-WBSI | 0,181  | (0,005)  | 0,181 | 
+ --- | --- | --- |--- |
+ WBSI | 0,342  | (0,008)  | 0,343  | 
+ AAQ | 0,247 | (0,006) | 0,248 | 
+ DASS | 0,230  | (0,006)  | 0,230 | 
+ GSE | 0,181  | (0,005)  | 0,181 | 
