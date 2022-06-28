@@ -30,8 +30,9 @@ WBSI  | 27,5  | 40,5  | 56,0  | 40,0  |
 
 Potilaat jakautuivat psykologisten muuttujien perusteella selkeästi kolmeen eritasoiseen ryhmään. 
 
-Profiilien 1 ja 2 edustajat kokivat terveytensä paremmaksi kuin profiilin 3 edustajat, joka ilmenee seuraavasta taulukosta:
-
+Profiilien 1 ja 2 potilaat kokivat terveytensä paremmaksi kuin profiilin 3 potilaat, joka ilmenee seuraavasta taulukosta:
+---  | Profiili 1 (N=56)  | Profiili 2 (N=80) | Profiili 3 (N=41) | All (N=177) 
+---  | ---  | ---  | ---  | ---  | 
 
 
 
