@@ -130,7 +130,7 @@ Feature importances obtained with Extra Tree regressor:
 
 The results for individual psychological variables and for sub-categories of WBSI variable are availabe in the file: 'Tarkeysarvojen_tuloksia.xlsx'.
 
+#### Future research
 
-
-
+Kaikilla neljällä koneoppimismallilla on suuri määrä optimoitavia parametreja, joita muokkaamalla on mahdollisuus pyrkiä lisäämään ennustustarkkuuksia hyödyntäen esimerkiksi verkkohakua. Mallien parametrit vaativat kuitenkin hyviä alkuarvauksia, koska verkkohaku testaa käyttäjän antamien parametrien kombinaatioita. Hyvien alkuarvauksien valinta vaatii syvällisempää perehtymistä käytettyihin menetelmiin esimerkiksi aiheeseen liittyvän kirjallisuuden kautta. 
 
