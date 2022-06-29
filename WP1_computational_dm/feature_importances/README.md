@@ -87,4 +87,8 @@ The following steps were used for computing feature importances of the selected 
 5. Z-score scaling of data to the zero mean and unit standard deviation.
 6. Parameters of the models were optimized by using a Grid search.
 7. Machine learning methods may have some bias caused by random basis models. Therefore, the models were rerun 100 times. In addition, there is a risk that models overfit the data. Cross-validation in effective way to prevent the overfitting. K-fold cross validation splits data K times to the training data and testing data and each sample is tested by once. In the study, 5-fold cross validation was used.  
-8. 
+8. Obtained results was an average of the five test fold.
+9. Mean results, standard deviations, and medians were computed over 100 reruns. 
+
+The obtained feature importances were based on regression and classification results. The regression models were used for predicting continuous valued weight information and classification models attempted to predict weight loss as a categorical variable, i.e., data was labeled to 1 for >= 2.5 % weight loss and 0 for < 2.5 % weight loss.    
+
