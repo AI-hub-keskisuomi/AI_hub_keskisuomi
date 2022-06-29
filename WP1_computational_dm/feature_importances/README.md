@@ -60,7 +60,7 @@ Summamuuttujien tärkeysarvojen tulokset Extra Tree -regressiomallilla:
 3 | GSE | 0,241 | (0,005) | 0,241 | 
 4 | WBSI | 0,231 | (0,005) | 0,231 | 
 
-Tärkeysarvotulokset yksittäisille psykologisille muuttujille ja WBSI-muuttujan alakategorioille ovat tiedostossa Tarkeysarvojen_tuloksia.xlsx
+Tärkeysarvotulokset yksittäisille psykologisille muuttujille ja WBSI-muuttujan alakategorioille ovat tiedostossa: 'Tarkeysarvojen_tuloksia.xlsx'.
 
 #### Jatkokehitys
 
