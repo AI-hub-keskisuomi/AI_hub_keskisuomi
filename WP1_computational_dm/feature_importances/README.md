@@ -75,6 +75,10 @@ Psychological variables can be divided into the four categories:
 - Self-efficacy (GSE)
 - Psychological distress (DASS-21)
 
+It was possible to compute points for each category by using questionnaires. Lower values in AAQ, WBSI, and DASS, and higher values in GSE indicated good results, respectively. In addition, some variables consisted of sub-categories.
+
+Patients' weights were selected to risk factors of well-being. Psychological variables were compared to the risk factors. The study aimed to identify the psychological variables which effected most to the weight changes.     
+
 
 
 
