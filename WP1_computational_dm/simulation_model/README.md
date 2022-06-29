@@ -25,6 +25,7 @@ Simulaatiomallin tulokset esitetään kuvaajina. Intervene ohjelma sisältää G
 ### Simulation model
 
 Please see the description by using the following link: 
+https://www.sciencedirect.com/science/article/pii/S1532046420302057?via%3Dihub
 
 
 
