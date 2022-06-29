@@ -81,5 +81,6 @@ Patients' weights were selected to risk factors of well-being. Psychological var
 
 The following steps were used for computing feature importances of the selected models:
 1. Selection of the target data. Only patients who finished the 36-monthly intervention were accepted. Total number of the patients was 78 after selection.
-2.  
+2. Relative weight changes from the begin of the intervention to the end of the intervention were computed. 
+3. 
 
