@@ -112,10 +112,23 @@ Feature importances obtained with Extra Tree classifier:
 3 | DASS | 0,244  | (0,005) | 0,244 | 
 4 | GSE | 0,205 | (0,004) | 0,204 | 
 
+Feature importances obtained with Random forest regressor:
+---  |  | Mean | (Std) | Median | 
+--- | --- | --- | --- |--- |
+1 | DASS | 0,295 | (0,008) | 0,295 | 
+2 | WBSI | 0,272 | (0,010) | 0,272 | 
+3 | AAQ | 0,236 | (0,008) | 0,236 | 
+4 | GSE | 0,197 | (0,006) | 0,196 | 
 
+Feature importances obtained with Extra Tree regressor:
+---  |  | Mean | (Std) | Median | 
+--- | --- | --- | --- |--- |
+1 | DASS | 0,278 | (0,006) | 0,278 | 
+2 | AAQ | 0,250 | (0,005) | 0,251 | 
+3 | GSE | 0,241 | (0,005) | 0,241 | 
+4 | WBSI | 0,231 | (0,005) | 0,231 | 
 
-
-
+The results for individual psychological variables and for sub-categories of WBSI variable are availabe in a file: 'Tarkeysarvojen_tuloksia.xlsx'.
 
 
 
