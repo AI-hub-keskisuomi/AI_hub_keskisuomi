@@ -69,4 +69,12 @@ Kaikilla neljällä koneoppimismallilla on suuri määrä optimoitavia parametre
 ## Effectivity analysis of psychological variables in lifestyle intervention  
 ### Case 1: Using feature importances
 
+Psychological variables can be divided into the four categories:
+- Psychological flexibility (AAQ-II)
+- Thought suppression (WBSI)
+- Self-efficacy (GSE)
+- Psychological distress (DASS-21)
+
+
+
 
