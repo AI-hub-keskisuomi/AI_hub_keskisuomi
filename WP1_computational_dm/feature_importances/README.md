@@ -82,7 +82,7 @@ Patients' weights were selected to risk factors of well-being. Psychological var
 The following steps were used for computing feature importances of the selected models:
 1. Selection of the target data. Only patients who finished the 36-monthly intervention were accepted. Total number of the patients was 78 after selection.
 2. Relative weight changes from the begin of the intervention to the end of the intervention were computed. 
-3. Changes in individual psychological variables and in summed variables of the four main categories throughout the 36-montly intervention were computed.   
+3. Changes in individual psychological variables and in summed psychological variables of the four main categories throughout the 36-montly intervention were computed. 
 4. Handling missing values. Missing values in the summed variables were imputed by using a median imputation. Individual psychological variables were imputed by using a 10-nearest neighbors imputation.
 5. Z-score scaling of data to the zero mean and unit standard deviation.
 6. Parameters of the models were optimized by using a Grid search.
@@ -94,5 +94,5 @@ The obtained feature importances were based on regression and classification res
 
 #### Results
 
-It is possible to evaluate validity of feature importances by comparing the results obtained from two different models. 
+It is possible to evaluate validity of feature importances by comparing the results obtained from two different models. Another approach is measure actual prediction accuracies in regression and classification tasks. Random forest classifier and Extremely randomized trees classifier both achieved approximately 61 % prediction accuracy when   
 
