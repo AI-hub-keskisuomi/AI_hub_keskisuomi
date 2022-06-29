@@ -26,6 +26,5 @@ Simulaatiomallin tulokset esitetään kuvaajina. Intervene ohjelma sisältää G
 
 Please see the description by using the following link: 
 https://www.sciencedirect.com/science/article/pii/S1532046420302057?via%3Dihub
-
-
+"Developing and testing a discrete event simulation model to evaluate budget impacts of diabetes prevention programs"
 
