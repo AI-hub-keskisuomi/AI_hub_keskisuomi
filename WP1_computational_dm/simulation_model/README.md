@@ -27,14 +27,3 @@ Simulaatiomallin tulokset esitetään kuvaajina. Intervene ohjelma sisältää G
 Please see the description by using the following link: 
 https://www.sciencedirect.com/science/article/pii/S1532046420302057
 
-BibTex:
-@article{KAASALAINEN2020103577,
-  title = {Developing and testing a discrete event simulation model to evaluate budget impacts of diabetes prevention programs},
-  journal = {Journal of Biomedical Informatics},
-  volume = {111},
-  pages = {103577},
-  year = {2020},
-  issn = {1532-0464},
-  author = {Kaasalainen, K. and Kalmari, J. and Ruohonen, T.},
-}
-
