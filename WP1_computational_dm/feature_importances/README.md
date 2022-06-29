@@ -80,21 +80,21 @@ It was possible to compute points of psychological behavior for each category by
 Patients' weights were selected to risk factors of well-being. Psychological variables were compared to the risk factors. The study aimed to identify the psychological variables that affected the weight changes most. It was possible to use statistical methods (e.g., methods of correlation analysis) or to use feature rankings of machine learning methods. Random forest and Extremely randomized trees methods can be used for computing feature rankings based on predicted outcomes. These models were selected for the analysis.       
 
 The following steps were used for computing feature importances of the selected models:
-1. Selection of the target data. Only patients who finished the 36-monthly intervention were accepted. Total number of the patients was 78 after selection.
-2. Relative weight changes from the begin of the intervention to the end of the intervention were computed. 
-3. Changes in individual psychological variables and in summed psychological variables of the four main categories throughout the 36-montly intervention were computed. 
+1. Selection of the target data. Only patients who finished the 36-monthly intervention were accepted. The total number of patients was 78 after selection.
+2. Relative weight changes from the intervention's beginning to the end were computed. 
+3. Changes in individual psychological variables and summed psychological variables of the four main categories throughout the 36-monthly intervention were computed. 
 4. Handling missing values. Missing values in the summed variables were imputed by using a median imputation. Individual psychological variables were imputed by using a 10-nearest neighbors imputation.
-5. Z-score scaling of data to the zero mean and unit standard deviation.
+5. Z-score data scaling to the zero mean and unit standard deviation.
 6. Parameters of the models were optimized by using a Grid search.
-7. Machine learning methods may have some bias caused by random basis models. Therefore, the models were rerun 100 times. In addition, there is a risk that models overfit the data. Cross-validation in effective way to prevent the overfitting. K-fold cross validation splits data K times to the training data and testing data and each sample is tested once. In the study, 5-fold cross validation was used.  
+7. Machine learning methods may have some bias caused by random basis models. Therefore, the models were rerun 100 times. In addition, there is a risk that models overfit the data. Cross-validation is an effective way to prevent overfitting. K-fold cross validation splits data K times to the training and test data, and each sample is tested once. In the study, 5-fold cross validation was used.  
 8. Obtained results were averages of the five test folds.
 9. Mean results, standard deviations, and medians were computed over 100 reruns. 
 
-The obtained feature importances were based on regression and classification results. The regression models were used to predict continuous valued weight information over all patients and classification models attempted to predict weight losses as categorical variables (i.e., data vector was labeled to 1 if weight loss was at least 2.5 % and labeled to 0 otherwise).    
+The obtained feature importances were based on regression and classification results. The regression models were used to predict continuous valued weight information over all patients, and classification models attempted to predict weight losses as categorical variables (i.e., the data vector was labeled to 1 if weight loss was at least 2.5 % and labeled to 0, otherwise).    
 
 #### Results
 
-It is possible to evaluate validity of feature importances by comparing the results obtained from two different models. Another approach is measure actual prediction accuracies in regression and classification tasks. Random forest classifier and Extremely randomized trees classifier both achieved approximately 61 % prediction accuracy when the selected features were changes in the psychological variables (four variables). The models produced the analogical and stable results even the prediction accuracies were not perfect. The correlation coefficients of Random forest regressor and Extremely randomized trees regressor, computed through real weight changes against predicted weight changes, were r = 0,225 and r = 0,275, respectively. The correlation results were quite weak, and therefore, the feature importances obtained by the regression models may not be well accurate. 
+It is possible to evaluate the validity of feature importances by comparing the results obtained from two different models. Another approach is measure actual prediction accuracies in regression and classification tasks. Random forest classifier and Extremely randomized trees classifier both achieved approximately 61 % prediction accuracy when the selected features were changes in the psychological variables (four variables). The models produced the analogical and stable results even the prediction accuracies were not perfect. The correlation coefficients of Random forest regressor and Extremely randomized trees regressor, computed through real weight changes against predicted weight changes, were r = 0,225 and r = 0,275, respectively. The correlation results were quite weak, and therefore, the feature importances obtained by the regression models may not be well accurate. 
 
 Feature importances obtained with Random forest classifier:
 ---  |  | Mean | (Std) | Median | 
