@@ -94,10 +94,23 @@ The obtained feature importances were based on regression and classification res
 
 #### Results
 
-It is possible to evaluate validity of feature importances by comparing the results obtained from two different models. Another approach is measure actual prediction accuracies in regression and classification tasks. Random forest classifier and Extremely randomized trees classifier both achieved approximately 61 % prediction accuracy when the selected features were the computed changes in the psychological variables (four variables). The models produced the analogical and stable results even the prediction accuracy was not perfect. The correlation coefficients of Random forest regressor and Extremely randomized trees regressor, computed through real weight changes against predicted weight changes, were r = 0,225 and r = 0,275, respectively. The correlation results were quite weak, and therefore, feature importances obtained by regression models may not be well accurate. 
+It is possible to evaluate validity of feature importances by comparing the results obtained from two different models. Another approach is measure actual prediction accuracies in regression and classification tasks. Random forest classifier and Extremely randomized trees classifier both achieved approximately 61 % prediction accuracy when the selected features were changes in the psychological variables (four variables). The models produced the analogical and stable results even the prediction accuracies were not perfect. The correlation coefficients of Random forest regressor and Extremely randomized trees regressor, computed through real weight changes against predicted weight changes, were r = 0,225 and r = 0,275, respectively. The correlation results were quite weak, and therefore, feature importances obtained by regression models may not be well accurate. 
 
 Feature importances obtained with Random forest classifier:
+---  |  | Mean | (Std) | Median | 
+--- | --- | --- | --- |--- |
+1 | WBSI | 0,342  | (0,008)  | 0,343  | 
+2 | AAQ | 0,247 | (0,006) | 0,248 | 
+3 | DASS | 0,230  | (0,006)  | 0,230 | 
+4 | GSE | 0,181  | (0,005)  | 0,181 | 
 
+Feature importances obtained with Extra Tree classifier:
+---  |  | Mean | (Std) | Median | 
+--- | --- | --- | --- |--- |
+1 | WBSI | 0,297 | (0,005) | 0,298 | 
+2 | AAQ | 0,254 | (0,005)  | 0,254 | 
+3 | DASS | 0,244  | (0,005) | 0,244 | 
+4 | GSE | 0,205 | (0,004) | 0,204 | 
 
 
 
