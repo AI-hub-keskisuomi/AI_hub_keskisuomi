@@ -93,3 +93,6 @@ The following steps were used for computing feature importances of the selected 
 The obtained feature importances were based on regression and classification results. The regression models were used to predict continuous valued weight information over all patients and classification models attempted to predict weight losses as categorical variables (i.e., data vector was labeled to 1 if weight loss was at least 2.5 % and labeled to 0 otherwise).    
 
 #### Results
+
+It is possible to evaluate validity of feature importances by comparing the results obtained from two different models. 
+
