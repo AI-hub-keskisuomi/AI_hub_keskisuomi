@@ -48,5 +48,5 @@ Tarkastelut suoritettiin myös loppumittausdatalle, josta indeksit (yhteensä 7 
 Kaikki klusterointitulokset ovat saatavilla tiedostossa 'Klusterointituloksia.xlsx'.     
 
 
-## Effectivity of psyhological variables in Muutosmatka intervention
+
 
