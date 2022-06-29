@@ -77,7 +77,7 @@ Psychological variables can be divided into the four categories:
 
 It was possible to compute points of psychological behavior for each category by using questionnaires. Lower values in AAQ, WBSI, and DASS, and higher values in GSE indicated good results, respectively. In addition, some variables consisted of sub-categories.
 
-Patients' weights were selected to risk factors of well-being. Psychological variables were compared to the risk factors. The study aimed to identify the psychological variables which effected the most to the weight changes. It was possible to use statitical methods (e.g., methods of correlation analysis) or use feature rankings of machine learning methods. Random forest and Extremely randomized trees methods can be used for computing feature rankings based on predicted outcomes. These models were selected to the analysis.       
+Patients' weights were selected to risk factors of well-being. Psychological variables were compared to the risk factors. The study aimed to identify the psychological variables which effected the most to the weight changes. It was possible to use statitical methods (e.g., methods of correlation analysis) or to use feature rankings of machine learning methods. Random forest and Extremely randomized trees methods can be used for computing feature rankings based on predicted outcomes. These models were selected to the analysis.       
 
 The following steps were used for computing feature importances of the selected models:
 1. Selection of the target data. Only patients who finished the 36-monthly intervention were accepted. Total number of the patients was 78 after selection.
