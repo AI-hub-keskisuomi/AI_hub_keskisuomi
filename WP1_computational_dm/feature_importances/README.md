@@ -67,7 +67,7 @@ Tärkeysarvotulokset yksittäisille psykologisille muuttujille ja WBSI-muuttujan
 Kaikilla neljällä koneoppimismallilla on suuri määrä optimoitavia parametreja, joita muokkaamalla on mahdollisuus pyrkiä lisäämään ennustustarkkuuksia hyödyntäen esimerkiksi verkkohakua. Mallien parametrit vaativat kuitenkin hyviä alkuarvauksia, koska verkkohaku testaa käyttäjän antamien parametrien kombinaatioita. Hyvien alkuarvauksien valinta vaatii syvällisempää perehtymistä käytettyihin menetelmiin esimerkiksi aiheeseen liittyvän kirjallisuuden kautta. 
 
 ## Effectivity analysis of psychological variables in lifestyle intervention  
-### Case 1: Using feature importances
+### Case 1: Using feature importances of classification and regressions models
 
 Psychological variables can be divided into the four categories:
 - Psychological flexibility (AAQ-II)
@@ -77,7 +77,7 @@ Psychological variables can be divided into the four categories:
 
 It was possible to compute points for each category by using questionnaires. Lower values in AAQ, WBSI, and DASS, and higher values in GSE indicated good results, respectively. In addition, some variables consisted of sub-categories.
 
-Patients' weights were selected to risk factors of well-being. Psychological variables were compared to the risk factors. The study aimed to identify the psychological variables which effected most to the weight changes. It was possible to use statitical methods (e.g., methods of correlation analysis) or use feature rankings of machine learning methods.       
+Patients' weights were selected to risk factors of well-being. Psychological variables were compared to the risk factors. The study aimed to identify the psychological variables which effected most to the weight changes. It was possible to use statitical methods (e.g., methods of correlation analysis) or use feature rankings of machine learning methods. Random forest and Extremely randomized trees methods can be used for computing feature rankings based on predicted outcomes.        
 
 
 
