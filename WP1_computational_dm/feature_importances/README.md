@@ -86,4 +86,5 @@ The following steps were used for computing feature importances of the selected 
 4. Handling missing values. Missing values in the summed variables were imputed by using a median imputation. Individual psychological variables were imputed by using a 10-nearest neighbors imputation.
 5. Z-score scaling of data to the zero mean and unit standard deviation.
 6. Parameters of the models were optimized by using a Grid search.
-7. Machine learning methods may have some bias caused by random basis models.  
+7. Machine learning methods may have some bias caused by random basis models. Therefore, the models were rerun 100 times. In addition, there is a risk that models overfit the data. Cross-validation in effective way to prevent the overfitting. K-fold cross validation splits data K times to the training data and testing data in a way that each sample is tested by once.  
+8. 
