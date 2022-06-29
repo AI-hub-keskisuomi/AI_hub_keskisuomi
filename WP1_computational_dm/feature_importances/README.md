@@ -94,5 +94,17 @@ The obtained feature importances were based on regression and classification res
 
 #### Results
 
-It is possible to evaluate validity of feature importances by comparing the results obtained from two different models. Another approach is measure actual prediction accuracies in regression and classification tasks. Random forest classifier and Extremely randomized trees classifier both achieved approximately 61 % prediction accuracy when...   
+It is possible to evaluate validity of feature importances by comparing the results obtained from two different models. Another approach is measure actual prediction accuracies in regression and classification tasks. Random forest classifier and Extremely randomized trees classifier both achieved approximately 61 % prediction accuracy when the selected features were the computed changes in the psychological variables (four variables). The models produced the analogical and stable results even the prediction accuracy was not perfect. The correlation coefficients of Random forest regressor and Extremely randomized trees regressor, computed through real weight changes against predicted weight changes, were r = 0,225 and r = 0,275, respectively. The correlation results were quite weak, and therefore, feature importances obtained by regression models may not be well accurate. 
+
+Feature importances obtained with Random forest classifier:
+
+
+
+
+
+
+
+
+
+
 
