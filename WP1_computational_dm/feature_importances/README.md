@@ -128,7 +128,7 @@ Feature importances obtained with Extra Tree regressor:
 3 | GSE | 0,241 | (0,005) | 0,241 | 
 4 | WBSI | 0,231 | (0,005) | 0,231 | 
 
-The results for individual psychological variables and for sub-categories of WBSI variable are availabe in a file: 'Tarkeysarvojen_tuloksia.xlsx'.
+The results for individual psychological variables and for sub-categories of WBSI variable are availabe in the file: 'Tarkeysarvojen_tuloksia.xlsx'.
 
 
 
