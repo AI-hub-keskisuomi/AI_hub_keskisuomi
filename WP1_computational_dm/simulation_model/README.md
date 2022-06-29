@@ -21,3 +21,10 @@ Simulaatiomallissa interventioiden lisäksi diabetespotilaita jaotellaan diabete
 Diabeteshoitojen kustannusten tarkkailu on oleellisena osana simulaatiomallia. Kustannusten tarkkailua varten intervene ohjelmassa on Money luokka. Luokan muuttujiin tallennetaan kustannukset eri tyypeittäin. Kustannukset tallennetaan kokonaissummittain. Lisäksi kustannuksista pidetään listaa potilaittain. Kustannuksia kertyy muun muassa potilaiden alkuseulannasta interventioihin, kunkin intervention aloittamisista ja eri interventioiden kuukausikustannuksista.  Lisäksi kasvokkain tapahtuvassa interventiossa ja digitaalisessa interventiossa tarkistetaan esimääritetyin aikaperiodien välein (jakson pituus on 3 kk nykyisessä toteutuksessa) kunkin potilaan tarve interventioon uudelleen ohjaukseen tai intervention lopun ohjaukseen liittyen. Uudelleenohjauksen tai lopun ohjauksen tarpeista aiheutuu kustannuksia esimääritetyille prosenttiosuuksille potilaista. Diabeteshoito- ja seurantaryhmään kuuluvat potilaat tuottavat ylläpitoon liittyviä kuukausikustannuksia. Seurantaryhmän potilaista osa tarvitsee hoitoon liittyen lisätukea. Kunkin intervention lisätukea tarvitsevien potilaiden prosentuaaliset arvot ovat edeltä määriteltyjä. Interventiosta riippuen kustannukset vaihtelevat tukea tarvitsevilla potilailla. Vuosittain seurantaryhmän potilaille suoritetaan lääkärintarkastus, josta syntyy kuluja kullekin potilaalle.   
 
 Simulaatiomallin tulokset esitetään kuvaajina. Intervene ohjelma sisältää Graphics luokan, joka piirtää käyrän kustannusten vuosittaisesta kasvusta tarkastelujaksolta, kuvan kustannusten jakautumisista eri interventiomuotojen sekä diabeteshoito- ja seurantaryhmän välille, pylväsdiagrammit keskielini’istä miehille ja naisille ja diagrammit rahan keskimääräisestä käytöstä henkilöä kohden miehille ja naisille. Kustannukset tallennetaan lopulta myös lokitiedostoon. Lokitiedostojen numerointi kasvaa aina yhdellä uusien simulaatioajojen välillä.
+
+### Simulation model
+
+Please see the description by using the following link: 
+
+
+
