@@ -83,4 +83,4 @@ The following steps were used for computing feature importances of the selected 
 1. Selection of the target data. Only patients who finished the 36-monthly intervention were accepted. Total number of the patients was 78 after selection.
 2. Relative weight changes from the begin of the intervention to the end of the intervention were computed. 
 3. Changes in individual psychological variables and in summed variables of the four main categories throughout the 36-montly intervention were computed.   
-4. 
+4. Handling missing values. Missing values in the summed variables were imputed by using median imputation. 
