@@ -66,3 +66,7 @@ Tärkeysarvotulokset yksittäisille psykologisille muuttujille ja WBSI-muuttujan
 
 Kaikilla neljällä koneoppimismallilla on suuri määrä optimoitavia parametreja, joita muokkaamalla on mahdollisuus pyrkiä lisäämään ennustustarkkuuksia hyödyntäen esimerkiksi verkkohakua. Mallien parametrit vaativat kuitenkin hyviä alkuarvauksia, koska verkkohaku testaa käyttäjän antamien parametrien kombinaatioita. Hyvien alkuarvauksien valinta vaatii syvällisempää perehtymistä käytettyihin menetelmiin esimerkiksi aiheeseen liittyvän kirjallisuuden kautta. 
 
+## Effectivity analysis of psychological variables in lifestyle intervention  
+
+
+
