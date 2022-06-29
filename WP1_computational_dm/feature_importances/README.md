@@ -132,5 +132,4 @@ The results for individual psychological variables and for sub-categories of WBS
 
 #### Future research
 
-Kaikilla neljällä koneoppimismallilla on suuri määrä optimoitavia parametreja, joita muokkaamalla on mahdollisuus pyrkiä lisäämään ennustustarkkuuksia hyödyntäen esimerkiksi verkkohakua. Mallien parametrit vaativat kuitenkin hyviä alkuarvauksia, koska verkkohaku testaa käyttäjän antamien parametrien kombinaatioita. Hyvien alkuarvauksien valinta vaatii syvällisempää perehtymistä käytettyihin menetelmiin esimerkiksi aiheeseen liittyvän kirjallisuuden kautta. 
-
+Every four machine learning models have a large amount parameters to be optimized and using these optimized values may increase performance of the models. For example, Grid search can be used but it requires good initial quesses because search combines initial parameters and uses that information in the optimization. The selection of the initial parameters requires good understanding of the used models, e.g., parameter values can be examined from the machine learning literature. 
