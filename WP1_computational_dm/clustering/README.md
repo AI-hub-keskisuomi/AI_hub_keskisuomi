@@ -70,7 +70,7 @@ The clustering included the following steps:
 
 ##### Results using the data at the beginning of the intervention  
 
-Klusterivalidointi-indekseistä Pakisha-Bandaya-Maulik ja WB-indeksi suosittelivat alkumittausdatalle kolmea eri ryhmää ja tämä valittiin ryhmien lopulliseksi lukumääräksi. 
+Pakisha-Bandaya-Maulik and WB cluster validation indices recommended three profiles and this number was used in the experiments. 
 
 
 
