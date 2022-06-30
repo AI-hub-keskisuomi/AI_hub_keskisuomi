@@ -83,6 +83,7 @@ WBSI  | 27,5  | 40,5  | 56,0  | 40,0  |
 
 The results show that patients are three different level groups based on variable values.
 
+The average and median values of patients' weights in the profiles 1 and 2 was less than in the profile 3.  
 
 
 
