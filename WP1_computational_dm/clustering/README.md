@@ -83,7 +83,15 @@ WBSI  | 27,5  | 40,5  | 56,0  | 40,0  |
 
 The results show that patients are three different level groups based on variable values.
 
-The average and median values of patients' weights in the profiles 1 and 2 was less than in the profile 3.  
+The average and median values of patients' weights in the profiles 1 and 2 was less than in the profile 3. In addition, the patients in profiles 1 and 2 self-rated healthiness for higher level than the patients in the profile 3. The self-ratings are as follows:
+---  | Profile 1 (N=56)  | Profile 2 (N=80) | Profile 3 (N=41) | All (N=177) 
+---  | ---  | ---  | ---  | ---  | 
+healthiness  |  |   |   |   | 
+1  | 34  | 42  | 7  | 83  | 
+2  | 14  | 29  | 19  | 62  | 
+3  | 8  | 9  | 15  | 32  | 
+Mean  | 1,5357  | 1,5875 | 2,1951  | 1,7119  | 
+
 
 
 
