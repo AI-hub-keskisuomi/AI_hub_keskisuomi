@@ -59,8 +59,12 @@ Psychological variables can be divided into the four categories:
 It was possible to compute points of psychological behavior for each category by using questionnaires. Lower values in AAQ, WBSI, and DASS and higher values in GSE indicated good results, respectively. The aim of the clustering is to divide the data into distinct groups where data samples are similar within a group and dissimilar to other samples in a different group. The clustering was performed based on the data set measured from the beginning of intervention and the data set measured from the end of the intervention. The number of the clusters was decided by using the internal cluster validation indices. The metadata was computed for the obtained cluster profiles, e.g., mean and median weights, relative weight changes, and self-rated healthiness were measured for the each profile. Three options was given to the healthiness (good healty = 1, stable healthy = 2, and bad healthy = 3). There were 178 patients who started the intervention and 78 patients who completed the whole 36-montly test period.           
 
 The clustering included the following steps:
-
-
+1. There were only few missing values which were imputed by the median imputation.
+2. The self-rated healty originally consisted of five ratings but the measure was scaled to three ratings.
+3. Data was Min-max to the range of [-1, 1].
+4. Data was clustered by using K-spatialmedians clustering.
+5. The clustering was performed for different numbers of clusters from the range of [1, 10].
+6. 
 
 
 
