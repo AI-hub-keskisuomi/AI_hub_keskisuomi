@@ -90,7 +90,7 @@ The following steps were used for computing feature importances of the selected 
 8. Obtained results were averages of the five test folds.
 9. Mean results, standard deviations, and medians were computed over 100 reruns. 
 
-The obtained feature importances were based on regression and classification results. The regression models were used to predict continuous valued weight information over all patients, and classification models attempted to predict weight losses as categorical variables (i.e., the data vector was labeled to 1 if weight loss was at least 2.5 % and labeled to 0, otherwise).    
+The obtained feature importances were based on regression and classification results. The regression models were used to predict continuous valued weight information over all patients, and classification models attempted to predict weight losses as categorical variables (i.e., the data vector was labeled to 1 if weight loss was at least 2.5 % and otherwise labeled to 0).    
 
 #### Results
 
