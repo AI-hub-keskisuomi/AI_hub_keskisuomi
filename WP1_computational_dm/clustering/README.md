@@ -61,7 +61,7 @@ It was possible to compute points of psychological behavior for each category by
 The clustering included the following steps:
 1. There were only a few missing values that were imputed by the median imputation.
 2. The self-rated healthy originally consisted of five ratings, but the measure was scaled to three.
-3. Data was Min-max to the range of [-1, 1].
+3. Data was Min-max scaled to the range of [-1, 1].
 4. Data was clustered using the K-spatialmedians clustering.
 5. The clustering was performed for different numbers of clusters from the range of [2, 10]. The initial points were selected by using K-means++ algorithm, and the clustering was replicated using 100 replicates. 
 6. The clustering results were validated with eight well-known cluster validation indices.
@@ -83,7 +83,7 @@ WBSI  | 27,5  | 40,5  | 56,0  | 40,0  |
 
 The results show that three different healthy level groups exist based on variable values.
 
-The average and median values of patients' weights in profiles 1 and 2 were less than in the profile 3. In addition, the patients in profiles 1 and 2 self-rated healthiness at higher level than those in profile 3. The self-ratings are as follows:
+The average and median values of patients' weights in profiles 1 and 2 were less than in the profile 3. In addition, the patients in profiles 1 and 2 self-rated healthiness at higher level than those in profile 3. The self-ratings were as follows:
 ---  | Profile 1 (N=56)  | Profile 2 (N=80) | Profile 3 (N=41) | All (N=177) 
 ---  | ---  | ---  | ---  | ---  | 
 healthiness  |  |   |   |   | 
