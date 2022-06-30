@@ -56,7 +56,7 @@ Psychological variables can be divided into the four categories:
 - Self-efficacy (GSE)
 - Psychological distress (DASS-21)
 
-
+It was possible to compute points of psychological behavior for each category by using questionnaires. Lower values in AAQ, WBSI, and DASS and higher values in GSE indicated good results, respectively. The aim of clustering is to divide the data...
 
 
 
