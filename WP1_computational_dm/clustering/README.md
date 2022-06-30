@@ -47,6 +47,8 @@ Tarkastelut suoritettiin myös loppumittausdatalle, josta indeksit (yhteensä 7 
 
 Kaikki klusterointitulokset ovat saatavilla tiedostossa 'Klusterointituloksia.xlsx'.     
 
+## Effectivity analysis of psychological variables in a lifestyle intervention
+### Case 2: Clustering
 
 
 
