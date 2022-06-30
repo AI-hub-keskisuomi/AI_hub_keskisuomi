@@ -50,5 +50,19 @@ Kaikki klusterointitulokset ovat saatavilla tiedostossa 'Klusterointituloksia.xl
 ## Effectivity analysis of psychological variables in a lifestyle intervention
 ### Case 2: Clustering
 
+Psychological variables can be divided into the four categories:
+- Psychological flexibility (AAQ-II)
+- Thought suppression (WBSI)
+- Self-efficacy (GSE)
+- Psychological distress (DASS-21)
+
+
+
+
+
+
+
+
+
 
 
