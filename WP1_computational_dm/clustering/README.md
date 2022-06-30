@@ -43,7 +43,7 @@ Keskiarvo  | 1,5357  | 1,5875 | 2,1951  | 1,7119  |
 
 ##### Loppumittausdata
 
-Tarkastelut suoritettiin myös loppumittausdatalle, josta indeksit (yhteensä 7 indeksiä) löysivät peräti seitsemän profiilia (kuvat indeksien tuloksista ovat Jpeg-kansiossa). Loppumittausaineiston tuloksissa oli selkeästi enemmän hajontaa profiilien välillä. Kaksi näistä profiileista oli pieniä, koska molemmat profiilit sisälsivät ainoastaan kolme potilasta. Kahdessa parhaimmassa profiilissa potilaat (yhteensä 19 kpl) kokivat terveytensä keskimääräistä paremmaksi ja profiilien potilaat saivat pudotettua painoa yli 2,5 %. Profiilissa 3 potilaat (23 kpl) tunsivat terveytensä keskimääräistä paremmaksi, mutta heillä oli tästä huolimatta havaittavissa suhteellista painon nousua koko 36 kk tarkastelujaksolta. Profiilissa 4 potilaat (17 kpl) puolestaan tunsivat terveytensä keskimääräistä huonommaksi, mutta onnistuivat pudottamaan painoaan noin 2 %. Profiilissa 6 potilaat (13 kpl) tunsivat terveytensä keskimääräistä huonommaksi ja heillä oli havaittavissa suhteellista painon nousua tarkastelujaksolta. 
+Tarkastelut suoritettiin myös loppumittausdatalle, josta indeksit (yhteensä 7 indeksiä) löysivät peräti seitsemän profiilia (kuvat indeksien tuloksista ovat Jpeg-kansiossa). Loppumittausaineiston tuloksissa oli selkeästi enemmän hajontaa profiilien välillä. Kaksi näistä profiileista oli pieniä, koska molemmat profiilit sisälsivät ainoastaan kolme potilasta. Kahdessa parhaimmassa profiilissa potilaat (yhteensä 19 kpl) kokivat terveytensä keskimääräistä paremmaksi ja profiilien potilaat saivat pudotettua painoa keskimäärin yli 2,5 %. Profiilissa 3 potilaat (23 kpl) tunsivat terveytensä keskimääräistä paremmaksi, mutta heillä oli tästä huolimatta keskimäärin havaittavissa suhteellista painon nousua koko 36 kk tarkastelujaksolta. Profiilissa 4 potilaat (17 kpl) puolestaan tunsivat terveytensä keskimääräistä huonommaksi, mutta onnistuivat pudottamaan painoaan keskimäärin noin 2 %. Profiilissa 6 potilaat (13 kpl) tunsivat terveytensä keskimääräistä huonommaksi ja heillä oli yleisesti havaittavissa suhteellista painon nousua tarkastelujaksolta. 
 
 Kaikki klusterointitulokset ovat saatavilla tiedostossa 'Klusterointituloksia.xlsx'.     
 
@@ -94,5 +94,10 @@ Mean  | 1,5357  | 1,5875 | 2,1951  | 1,7119  |
 
 ##### Results using the data at the end of the intervention
 
+The results were computed based on the data at the end of the intervention. Cluster validation indices (in total 7) recommended seven profiles (figures are in the Jpeg folder). There cluster profiles included high variability. Two of the profiles were small because they included only three patients. In the two best profiles, the average value of self-rated healthy was better than average and...  
 
+
+Kahdessa parhaimmassa profiilissa potilaat (yhteensä 19 kpl) kokivat terveytensä keskimääräistä paremmaksi ja profiilien potilaat saivat pudotettua painoa yli 2,5 %. Profiilissa 3 potilaat (23 kpl) tunsivat terveytensä keskimääräistä paremmaksi, mutta heillä oli tästä huolimatta havaittavissa suhteellista painon nousua koko 36 kk tarkastelujaksolta. Profiilissa 4 potilaat (17 kpl) puolestaan tunsivat terveytensä keskimääräistä huonommaksi, mutta onnistuivat pudottamaan painoaan noin 2 %. Profiilissa 6 potilaat (13 kpl) tunsivat terveytensä keskimääräistä huonommaksi ja heillä oli havaittavissa suhteellista painon nousua tarkastelujaksolta.
+
+Kaikki klusterointitulokset ovat saatavilla tiedostossa 'Klusterointituloksia.xlsx'.
 
