@@ -72,6 +72,18 @@ The clustering included the following steps:
 
 Pakisha-Bandaya-Maulik and WB cluster validation indices recommended three cluster profiles and this number was used in the experiments. 
 
+Median values of psychological variables in each profile were as follows:
+
+---  | Profile 1 (N=56)  | Profile 2 (N=80) | Profile 3 (N=41) | All (N=177) 
+---  | ---  | ---  | ---  | ---  | 
+AAQ  | 8,5  | 15,0  | 28,0  | 15,0  | 
+DASS  | 4,0  | 9,0  | 19,0  | 8,0  |
+GSE  | 35,0  | 28,0  | 28,0  | 30,0  | 
+WBSI  | 27,5  | 40,5  | 56,0  | 40,0  | 
+
+
+
+
 
 
 
