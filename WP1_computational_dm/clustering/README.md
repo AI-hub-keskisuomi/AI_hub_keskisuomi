@@ -81,7 +81,7 @@ DASS  | 4,0  | 9,0  | 19,0  | 8,0  |
 GSE  | 35,0  | 28,0  | 28,0  | 30,0  | 
 WBSI  | 27,5  | 40,5  | 56,0  | 40,0  | 
 
-The results show that three different level groups exist based on variable values.
+The results show that three different healthy level groups exist based on variable values.
 
 The average and median values of patients' weights in profiles 1 and 2 were less than in the profile 3. In addition, the patients in profiles 1 and 2 self-rated healthiness at higher level than those in profile 3. The self-ratings are as follows:
 ---  | Profile 1 (N=56)  | Profile 2 (N=80) | Profile 3 (N=41) | All (N=177) 
