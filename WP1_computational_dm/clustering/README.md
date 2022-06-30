@@ -66,9 +66,11 @@ The clustering included the following steps:
 5. The clustering was performed for different numbers of clusters from the range of [2, 10]. The initial points were selected by using K-means++ algorithm and the clustering was replicated by using 100 replicates. 
 6. The clustering results were validated with eight well-known cluster validation indices.
 
+#### Results
 
+##### Results using the data at the beginning of the intervention  
 
-
+Klusterivalidointi-indekseistä Pakisha-Bandaya-Maulik ja WB-indeksi suosittelivat alkumittausdatalle kolmea eri ryhmää ja tämä valittiin ryhmien lopulliseksi lukumääräksi. 
 
 
 
