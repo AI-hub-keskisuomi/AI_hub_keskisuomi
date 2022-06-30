@@ -63,8 +63,10 @@ The clustering included the following steps:
 2. The self-rated healty originally consisted of five ratings but the measure was scaled to three ratings.
 3. Data was Min-max to the range of [-1, 1].
 4. Data was clustered by using K-spatialmedians clustering.
-5. The clustering was performed for different numbers of clusters from the range of [2, 10].
-6. 
+5. The clustering was performed for different numbers of clusters from the range of [2, 10]. The initial points were selected by using K-means++ algorithm and the clustering was replicated by using 100 replicates. 
+6. The clustering results were validated with eight well-known cluster validation indices.
+
+
 
 
 
