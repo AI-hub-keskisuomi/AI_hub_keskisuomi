@@ -56,7 +56,7 @@ Psychological variables can be divided into the four categories:
 - Self-efficacy (GSE)
 - Psychological distress (DASS-21)
 
-It was possible to compute points of psychological behavior for each category by using questionnaires. Lower values in AAQ, WBSI, and DASS and higher values in GSE indicated good results, respectively. The clustering aims to divide the data into distinct groups where data samples are similar within a group and dissimilar to other samples in a different group. The clustering was performed based on the data sets measured from the beginning and the end of the intervention. The number of clusters was decided by using the internal cluster validation indices. The metadata was computed for the obtained cluster profiles, e.g., mean and median weights, relative weight changes, and self-rated healthiness were measured for each profile. Three options were given for healthiness (good healthy = 1, intermediate healthy = 2, and bad healthy = 3). In total, 178 patients started the intervention, and 78 completed the whole 36-monthly test period.           
+It was possible to compute points of psychological behavior for each category by using questionnaires. Lower values in AAQ, WBSI, and DASS and higher values in GSE indicated good results, respectively. The clustering aims to divide the data into distinct groups where data samples are similar within a group and dissimilar to other samples in a different group. The clustering was performed based on the data sets measured from the beginning and the end of the intervention. The number of clusters was decided by using the internal cluster validation indices. The metadata was computed for the obtained cluster profiles, e.g., mean and median weights, relative weight changes, and self-rated healthy were measured for each profile. Three options were given for healthy (good healthy = 1, intermediate healthy = 2, and bad healthy = 3). In total, 178 patients started the intervention, and 78 completed the whole 36-monthly test period.           
 
 The clustering included the following steps:
 1. There were only a few missing values that were imputed by the median imputation.
@@ -83,10 +83,10 @@ WBSI  | 27,5  | 40,5  | 56,0  | 40,0  |
 
 The results show that three different healthy level groups exist based on variable values.
 
-The average and median values of patients' weights in profiles 1 and 2 were less than in the profile 3. In addition, the patients in profiles 1 and 2 self-rated healthiness at higher level than those in profile 3. The self-ratings were as follows:
+The average and median values of patients' weights in profiles 1 and 2 were less than in the profile 3. In addition, the patients in profiles 1 and 2 self-rated healthy at higher level than those in profile 3. The self-ratings were as follows:
 ---  | Profile 1 (N=56)  | Profile 2 (N=80) | Profile 3 (N=41) | All (N=177) 
 ---  | ---  | ---  | ---  | ---  | 
-healthiness  |  |   |   |   | 
+healthy  |  |   |   |   | 
 1  | 34  | 42  | 7  | 83  | 
 2  | 14  | 29  | 19  | 62  | 
 3  | 8  | 9  | 15  | 32  | 
@@ -94,7 +94,7 @@ Mean  | 1,5357  | 1,5875 | 2,1951  | 1,7119  |
 
 ##### Results using the data at the end of the intervention
 
-The results were computed based on the data at the end of the intervention. Cluster validation indices (7 indices in total) recommended seven profiles (figures are in the Jpeg folder). These cluster profiles included high variability. Two of the profiles were small because they included only three patients. In the two best profiles, the average value of self-rated healthy was better than the average over whole population, and mean weight loss was more than 2.5 % (measured over 19 patients). In profile 3 (included 23 patients in total), the self-rated healthiness was better than the average value, but the relative weight change (measured over a 36-monthly period) was worse than the average. In profile 4 (17 patients in total), patients self-rated healthiness as worse than the average but achieved approximately 2 % average weight loss. Patients in the profile 6 (13 patients in total) self-rated healthiness as worse than the average, and many patients suffered the increased weights. 
+The results were computed based on the data at the end of the intervention. Cluster validation indices (7 indices in total) recommended seven profiles (figures are in the Jpeg folder). These cluster profiles included high variability. Two of the profiles were small because they included only three patients. In the two best profiles, the average value of self-rated healthy was better than the average over whole population, and mean weight loss was more than 2.5 % (measured over 19 patients). In profile 3 (included 23 patients in total), the self-rated halthy was better than the average value, but the relative weight change (measured over a 36-monthly period) was worse than the average. In profile 4 (17 patients in total), patients self-rated healthy as worse than the average but achieved approximately 2 % average weight loss. Patients in the profile 6 (13 patients in total) self-rated healthy as worse than the average, and many patients suffered the increased weights. 
 
 All the clustering results are available in the file: 'Klusterointituloksia.xlsx'.
 
