@@ -4,7 +4,7 @@ Project files for developing a model for automatically assessing tibial spiking 
 
 The model is based on ImageNet pre-trained ResNeXt50-32x4d. We utilized the
 pre-trained weights for every layer, only the classification head was replaced
-with fully connected 2048x2 layers.
+with dense layer of 2048 units and 2 outputs.
 
 ## Using 
 
