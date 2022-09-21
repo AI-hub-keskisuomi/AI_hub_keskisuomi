@@ -1,4 +1,4 @@
-# Tibial spiking grading
+# A model for classifying tibial spiking from plain radiographs
 
 Project files for developing a model for automatically assessing tibial spiking from radiographs.
 
@@ -22,3 +22,26 @@ python test_model.py -s <experiment_dir>
 ```
 Trained model is located in repository directory `trained_model`.
 
+
+# Menetelmä eminentian terävöitymisen luokitteluun röntgenkuvista
+
+Tämä repositorio sisältää analyysikoodin jolla malli on koulutettu, valmiiksi koulutetun neuroverkkomallin.
+
+Luokittelumallin soveltaa ImageNet aineistoon sovitettua ResNeXt50-32x4d mallia, josta korvasimme viimeisen varsinaista luokittelun suorittavan osan 2048 neuronilla ja kahdella ulostulolla.
+
+Trained model is located in repository directory `trained_model`.
+
+## Käyttöohjeet
+
+Koulutettua mallia voidaan käyttää komentamalla
+```
+python test_model.py -s <experiment_dir> 
+```
+Tutustu `test_model.py` ja `dataset.py` nähdäksesi miten mallia käytetään.
+
+
+Grid-haku voidaan ajaa hyperparametrien säätämiseksi komennolla 
+```
+python grid_search.py -s <experiment_dir> 
+```
+hakemisto `example_ex` sisältää esimerkin miten parametrit määritetään.
