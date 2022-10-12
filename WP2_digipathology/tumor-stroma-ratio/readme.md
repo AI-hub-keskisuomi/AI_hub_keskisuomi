@@ -3,6 +3,7 @@
 - ***models***: ladattavat konvoluutioneuroverkkomallit / CNN-models for downloading
 - ***readme.md***: ohjeet ja taustatiedot / instructions and background, english version follows the finnish one
 - ***tile_from_qupath.py***: python-skripti kuvien pilkkomiseen QuPath-annotoinneista / python-script to tile images from QuPath-annotations
+- ***tumor_stroma_CNN_gen.ipynb***: jupyter notebook-esimerkki CNN-mallin kouluttamisesta ja validioinnista / Jupyter notebook example of CNN training and validation
 
 ---
 
