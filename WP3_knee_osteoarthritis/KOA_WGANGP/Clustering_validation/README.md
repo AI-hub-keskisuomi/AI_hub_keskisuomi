@@ -47,7 +47,7 @@ The feature vectors reduced using PCA were difficult to cluster, as the
 features did not form clear clusters, only a few more dense areas with
 slightly more sparse areas between.
 
-![Features reduced to 2 dimensions using PCA](\2dpca_real_labels.png
+![Features reduced to 2 dimensions using PCA](2dpca_real_labels.png
 "Features embedded to 2 dimensions using PCA")
 
 Both were successful in clustering the UMAP embedded features. This was due to
@@ -97,10 +97,10 @@ Cluster 1 was 59% of healthy knees (KL 0 and 1), and cluster
 3 was 71% of knees with OA (KL 2, 3, and 4). Cluster 2 was smaller with less
 than 500 x-rays and was 58% healthy knees.
 
-![Features reduced to 2 dimensions using UMAP](\umap_2d_most_vs_fake.png
+![Features reduced to 2 dimensions using UMAP](umap_2d_most_vs_fake.png
 "Features embedded to 2 dimensions using UMAP")
 
-![OPTICS clustering in 2 dimensions using UMAP](\umap_2d_optics.png
+![OPTICS clustering in 2 dimensions using UMAP](umap_2d_optics.png
 "OPTICS clustering in 2 dimensions using UMAP")
 
 ### MOST vs. OAI
@@ -133,7 +133,7 @@ using OPTICS with stricter hyperparameters.
 This yielded 23 subclusters with most of the feature vectors discarded as
 noise.
 
-![30 dim OPTICS subclusters, visualized in 2 dim](\umap_30d_subclusters.png
+![30 dim OPTICS subclusters, visualized in 2 dim](umap_30d_subclusters.png
 "30 dim OPTICS subclusters, visualized in 2 dim")
 
 
@@ -142,7 +142,7 @@ was chosen as the cluster representative.
 The images corresponding to these feature vectors and their heatmaps can
 be seen in the image below.
 
-![Cluster representatives and Grad-CAM heatmaps](\readme_gradcam.png
+![Cluster representatives and Grad-CAM heatmaps](readme_gradcam.png
 "Cluster representatives and Grad-CAM heatmaps")
 
 The Grad-CAM results show no clear differences between the clusters. The clusters 0-7
