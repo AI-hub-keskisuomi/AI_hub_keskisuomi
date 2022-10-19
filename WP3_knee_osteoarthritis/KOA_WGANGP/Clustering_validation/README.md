@@ -97,6 +97,12 @@ Cluster 1 was 59% of healthy knees (KL 0 and 1), and cluster
 3 was 71% of knees with OA (KL 2, 3, and 4). Cluster 2 was smaller with less
 than 500 x-rays and was 58% healthy knees.
 
+![Features reduced to 2 dimensions using UMAP](\umap_2d_most_vs_fake.png
+"Features embedded to 2 dimensions using UMAP")
+
+![OPTICS clustering in 2 dimensions using UMAP](\umap_2d_optics.png
+"OPTICS clustering in 2 dimensions using UMAP")
+
 ### MOST vs. OAI
 
 The results were validated using OAI images in place of the synthetic x-rays.
@@ -126,6 +132,11 @@ the features were reduced to 30 dimensions using UMAP and then clustered
 using OPTICS with stricter hyperparameters.
 This yielded 23 subclusters with most of the feature vectors discarded as
 noise.
+
+![30 dim OPTICS subclusters, visualized in 2 dim](\umap_30d_subclusters.png
+"30 dim OPTICS subclusters, visualized in 2 dim")
+
+
 The centermost feature vectors of these clusters (using euclidean distance)
 was chosen as the cluster representative.
 The images corresponding to these feature vectors and their heatmaps can
