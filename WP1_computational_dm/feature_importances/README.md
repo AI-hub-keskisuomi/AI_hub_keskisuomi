@@ -79,7 +79,7 @@ Tulevaisuudessa piirteiden valintaan olisi mahdollista kokeilla käyttää yksin
 
 #### Lähteitä:
 
-Breiman, Random Forests, Machine Learning, 45(1), 5–32, 2001.   
+Breiman, L., (2001). Random Forests, Machine Learning, 45(1), 5–32.   
   
 Geurts, P., Ernst, D., & Wehenkel, L. (2006). Extremely randomized trees. Machine learning, 63(1), 3-42.  
 
