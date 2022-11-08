@@ -53,7 +53,7 @@ Taulukko 2. Summamuuttujien tärkeysarvojen tulokset extremely randomized trees 
 4 | GSE | 20,50 % | 0,44 % |    
   
 #### Regressiomallit
-Regressiomallien tapauksessa ennustettujen arvojen ja todellisten arvojen välille laskettiin Pearsonin korrelaatiokertoimet. Korrelaatiot olivat heikkoja, jonka vuoksi myös regressiomallien tärkeysarvotuloksiin täytyy suhtautua varauksella. Satunnaismetsämallilla korrelaatiokerroin oli *r=*0,225 ja extremely randomized trees -mallilla korrelaatiokerroin oli *r=*0,275. Taulukossa 3 ja Taulukossa 4 on listattu tärkeysarvojen tulokset regressiomalleilla. Selvästi malleilla psykologiset summamuuttujat listautuivat eri järjestykseen, joka edelleen heikentää tulosten luetettavuutta.
+Regressiomallien tapauksessa ennustettujen arvojen ja todellisten arvojen välille laskettiin Pearsonin korrelaatiokertoimet. Korrelaatiot olivat heikkoja, jonka vuoksi myös regressiomallien tärkeysarvotuloksiin täytyy suhtautua varauksella. Satunnaismetsämallilla korrelaatiokerroin oli *r=* 0,225 ja extremely randomized trees -mallilla korrelaatiokerroin oli *r=* 0,275. Taulukossa 3 ja Taulukossa 4 on listattu tärkeysarvojen tulokset regressiomalleilla. Selvästi malleilla psykologiset summamuuttujat listautuivat eri järjestykseen, joka edelleen heikentää tulosten luetettavuutta.
 
 
 
