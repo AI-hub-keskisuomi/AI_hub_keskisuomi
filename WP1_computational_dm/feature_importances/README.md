@@ -37,20 +37,20 @@ Ennustettavana muuttujana käytettiin painon muutosta joko luokiteltuna (1 = pai
 Käytettyjen satunnaismetsä ja extremely randomized trees mallien luokittelutarkkuudet olivat psykologisille summamuuttujille 60,58 % ja 60,61 %. Tarkkuudet ovat melko heikkoja ja tämän vuoksi tärkeysarvojen tuloksiin täytyy suhtautua varauksella. Taulukossa 1 ja Taulukossa 2 on listattu tärkeysarvojen tulokset luokittelumalleilla. Molemmilla malleilla psykologiset muuttujat listautuivat samaan järjestykseen ja WBSI-summamuuttuja sai suurimman tärkeysarvon.    
   
 Taulukko 1. Summamuuttujien tärkeysarvojen tulokset satunnaismetsäluokittelumallilla  
-|  | Keskiarvo | Keskihajonta |  
+--- |  | Keskiarvo | Keskihajonta |  
 --- | --- | --- | --- |  
-1 | WBSI | 0,342  | (0,008) |    
-2 | AAQ | 0,247 | (0,006) |    
-3 | DASS | 0,230  | (0,006) |   
-4 | GSE | 0,181  | (0,005) |    
+1 | WBSI | 34,24 % | 0,81 % |    
+2 | AAQ | 24,74 % | 0,59 % |    
+3 | DASS | 22,96 % | 0,64 % |   
+4 | GSE | 18,06 % | 0,52 % |    
   
 Taulukko 2. Summamuuttujien tärkeysarvojen tulokset extremely randomized trees -luokittelumallilla.  
 ---  |  | Keskiarvo | Keskihajonta |  
 --- | --- | --- | --- |  
-1 | WBSI | 0,297 | (0,005) |   
-2 | AAQ | 0,254 | (0,005)  |    
-3 | DASS | 0,244  | (0,005) |   
-4 | GSE | 0,205 | (0,004) |    
+1 | WBSI | 29,70 % | 0,47 % |   
+2 | AAQ | 25,38 % | 0,47 %  |    
+3 | DASS | 24,42 %  | 0,49 % |   
+4 | GSE | 20,50 % | 0,44 % |    
   
   
 #### Lähteet:
