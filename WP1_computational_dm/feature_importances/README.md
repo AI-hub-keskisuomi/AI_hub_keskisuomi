@@ -72,6 +72,8 @@ Taulukko 4. Summamuuttujien tärkeysarvojen tulokset extremely randomized trees 
 3 | GSE | 24,05 % | 0,55 % |   
 4 | WBSI | 23,12 % | 0,54 % |   
 
+#### Pohdintoja
+
 
 #### Lähteet:
 
