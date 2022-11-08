@@ -10,7 +10,7 @@ Psykologiset tekijät voidaan jakaa neljään kategoriaan:
 
 Potilaille oli mahdollista laskea psykologisten tekijöiden pisteytykset kyselylomakekyselyiden perusteella. Alhaiset arvot AAQ, WBSI ja DASS pisteytyksissä ja korkeat arvot GSE-pistetyksessä kuvaavat hyviä tuloksia. Osalla muuttujista on olemassa myös alakategorioita. Terveyteen liittyväksi riskitekijäksi valittiin kohdehenkilöiden painotiedot ja psykologisten tekijöitä verrattiin painotietoihin. Tavoitteena oli pyrkiä tunnistamaan ne psykologiset tekijät, jotka vaikuttavat eniten painon muutoksiin. 
 
-##### Koneoppimismallit 
+#### Koneoppimismallit 
 
 Tietyillä luokittelu- ja regressiomalleilla on mahdollista laskea tärkeysarvot piirteille, jotka maksimoivat ennustustarkkuuden. Tällaisia malleja ovat esimerkiksi satunnaismetsä (engl. random forest) ja "extremely randomized trees". Nämä kaksi mallia valittiin mukaan analyyseihin. Ennustemalleissa regressio kuvaa ennustetta jatkuvana muuttujana, kun taas luokittelu jakaa aineiston ennalta määrättyyn määrään eri kategorioita eli luokkia. 
 
