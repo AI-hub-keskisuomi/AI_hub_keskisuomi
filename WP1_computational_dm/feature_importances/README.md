@@ -66,10 +66,10 @@ Taulukko 3. Summamuuttujien tärkeysarvojen tulokset satunnaismetsäregressiomal
 Taulukko 4. Summamuuttujien tärkeysarvojen tulokset extremely randomized trees -regressiomallilla.  
 ---  |  | Keskiarvo | Keskihajonta |   
 --- | --- | --- | --- |  
-1 | DASS | 0,278 | 0,59 % |   
-2 | AAQ | 0,250 | 0,53 % |   
-3 | GSE | 0,241 | 0,55 % |   
-4 | WBSI | 0,231 | 0,54 % |   
+1 | DASS | 27,78 % | 0,59 % |   
+2 | AAQ | 25,05 % | 0,53 % |   
+3 | GSE | 24,05 % | 0,55 % |   
+4 | WBSI | 23,12 % | 0,54 % |   
 
 
 #### Lähteet:
