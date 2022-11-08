@@ -77,7 +77,7 @@ Kokeissa käytetyt koneoppimismallit sisälsivät runsaasti säädettäviä para
 
 Tulevaisuudessa piirteiden valintaan olisi mahdollista kokeilla käyttää yksinkertaisempia malleja, kuten lasso-regressiota (Tibshirani 1996). Julkaisussa (Linja ym. in press) esitetään vertailu, joka perustuu jo aikaisemmin tehtyihin vertailuihin liittyen piirteiden tärkeysarvojen laskentamalleihin. Etäisyyspohjaiset mallit, kuten minimal learning machine (Hämäläinen ym. 2020), ovat toimineet vertailussa hyvin ja ne sisältävät vain yhden säädettävän parametrin, joka on laskennassa käytetty referenssipisteiden lukumäärä.
 
-#### Lähteet:
+#### Lähteitä:
 
 Breiman, Random Forests, Machine Learning, 45(1), 5–32, 2001.   
   
