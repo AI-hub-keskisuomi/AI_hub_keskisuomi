@@ -16,6 +16,18 @@ Tietyillä luokittelu- ja regressiomalleilla on mahdollista laskea tärkeysarvot
 
 Satunnaismetsä on yhdistelmämalli, jossa yhdistetään useita päätöspuita (Breiman 2001). Luokittelutehtävässä metsän ulostuloarvoksi valitaan enemmistötulos satunnaispuiden luokittelutuloksista. Regressiotehtävässä ulostuloarvoksi määräytyy satunnaispuiden ennusteiden keskiarvo. Satunnaismetsän ominaisuuksiin kuulu, että eri sisääntulomuuttujille voidaan laskea tärkeysarvot pohjautuen malliin toteutettuun permutaatiotestaukseen (Breiman 2001). Satunnaismetsässä sisääntulodata jaetaan osiin ja yksittäisen päätöspuun ennuste perustuu ositettuun dataan. Jokaisen puun haarassa suoritetaan datan jaottelua perustuen osittain satunnaiseen näytevektorien piirteytyksiin. Extremely randomized trees -malli on samankaltainen kuin satunnaismetsä. Erona mallien välillä on datan osittaminen päätöspuille ja piirteiden jakaminen puun solmuille. Extremely randomized trees -mallissa koko aineisto ositetaan päätöspuille ja piirteiden jako solmuille suoritetaan täysin satunnaisesti (Geurts 2006). Molemmissa malleissa valitaan lopuksi paras piirteiden kombinaatio kullekin päätöspuulle.   
 
+##### Tärkeysarvojen laskennat sisälsivät seuraavat vaiheet:
+1.	Potilaiden rajaus niihin henkilöihin, jotka olivat mukana koko Muutosmatka-intervention ajan eli 36 kk. Potilasmäärä rajautui 78 potilaaseen.   
+2.	Suhteellisten painon muutosten laskennat intervention alusta intervention loppuun.  
+3.	Psykologisten pisteytyksien muutoksien laskennat yksittäisille psykologisille muuttujille ja neljän pääkategorian summamuuttujille intervention alusta intervention loppuun.  
+4.	Puuttuvien arvojen käsittely. Summamuuttujien tapauksessa käytettiin mediaani-imputointia ja yksittäisten muuttujien tapauksessa käytettiin 10-lähimmän naapurin imputointia.   
+5.	Muuttujat skaalattiin nollakeskiarvoiseksi ja yksikköhajonnalle z-score muunnoksella.  
+6.	Verkkohakua käytettiin mallien parametrien optimointeihin.   
+7.	Työssä käytettiin viisinkertaista ristiinvalidointia mallien opetuksiin ja testauksiin. Tärkeysarvoista otettiin keskiarvot jakamalla tärkeysarvojen summat viidellä.   
+8.	Käytettyihin malleihin liittyy mallien satunnaisuuteen perustuvaa laskennallista epävarmuutta. Tämän vuoksi Vaihe 7 toistettiin yhteensä 100 kertaa. Toistoista laskettiin keskiarvot, keskihajonnat ja mediaaniarvot.      
+
+
+
 
 
 #### Lähteet:
