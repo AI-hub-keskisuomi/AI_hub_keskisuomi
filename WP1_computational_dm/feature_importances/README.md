@@ -85,7 +85,7 @@ Geurts, P., Ernst, D., & Wehenkel, L. (2006). Extremely randomized trees. Machin
 
 Hämäläinen, J., Alencar, A. S. C., Kärkkäinen, T., Mattos, C. L. C., Souza Junior, A. H., & Gomes, J. P. P. (2020). Minimal learning machine: Theoretical results and clustering-based reference point selection, Journal of Machine Learning Research 21, pp. 1–29.
 
-Rintamäki, R., Rautio, N., Peltonen, M., Jokelainen, J., Keinänen-Kiukaanniemi, S., Oksa, H., . . . Moilanen, L. (2021). Long-term outcomes of lifestyle intervention to prevent type 2 diabetes in people at high risk in primary health care. Primary care diabetes, 15(3), 444-450. https://doi.org/10.1016/j.pcd.2021.03.002 
+Rintamäki, R., Rautio, N., Peltonen, M., Jokelainen, J., Keinänen-Kiukaanniemi, S., Oksa, H., ..., Moilanen, L. (2021). Long-term outcomes of lifestyle intervention to prevent type 2 diabetes in people at high risk in primary health care. Primary care diabetes, 15(3), 444-450. 
 
 Tibshirani, R. (1996). Regression shrinkage and selection via the lasso. Journal of the Royal Statistical Society. Series B (methodological). Wiley. 58 (1): 267–88. 
 
