@@ -44,5 +44,7 @@ Käytettyjen satunnaismetsä ja extremely randomized trees mallien luokittelutar
 
 Breiman, Random Forests, Machine Learning, 45(1), 5–32, 2001.   
   
-Geurts, P., Ernst, D., & Wehenkel, L. (2006). Extremely randomized trees. Machine learning, 63(1), 3-42.
+Geurts, P., Ernst, D., & Wehenkel, L. (2006). Extremely randomized trees. Machine learning, 63(1), 3-42.  
+  
+Rintamäki, R., Rautio, N., Peltonen, M., Jokelainen, J., Keinänen-Kiukaanniemi, S., Oksa, H., . . . Moilanen, L. (2021). Long-term outcomes of lifestyle intervention to prevent type 2 diabetes in people at high risk in primary health care. Primary care diabetes, 15(3), 444-450. https://doi.org/10.1016/j.pcd.2021.03.002 
 
