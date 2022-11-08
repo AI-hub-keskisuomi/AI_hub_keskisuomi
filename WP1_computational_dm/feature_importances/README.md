@@ -20,7 +20,8 @@ Satunnaismetsä on yhdistelmämalli, jossa yhdistetään useita päätöspuita (
 
 #### Lähteet:
 
-
+Breiman, Random Forests, Machine Learning, 45(1), 5–32, 2001.   
+Geurts, P., Ernst, D., & Wehenkel, L. (2006). Extremely randomized trees. Machine learning, 63(1), 3-42.
 
 
 
