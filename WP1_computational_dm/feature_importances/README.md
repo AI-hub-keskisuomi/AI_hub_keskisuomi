@@ -32,6 +32,7 @@ Ennustettavana muuttujana käytettiin painon muutosta joko luokiteltuna (1 = pai
 8.	Käytettyihin malleihin liittyy mallien satunnaisuuteen perustuvaa laskennallista epävarmuutta. Tämän vuoksi Vaihe 7 toistettiin yhteensä 100 kertaa. Toistoista laskettiin keskiarvot, keskihajonnat ja mediaaniarvot.      
 
 #### Tulokset
+Tuloslistauksessa on huomioitu vain psykologiset summamuuttujat. Yksittäisten muuttujien tärkeysarvojen listaukset on esitetty tiedostossa *Tarkeysarvot.xlsx*. 
 
 #### Luokittelumallit
 Käytettyjen satunnaismetsä ja extremely randomized trees mallien luokittelutarkkuudet olivat psykologisille summamuuttujille 60,58 % ja 60,61 %. Tarkkuudet ovat melko heikkoja ja tämän vuoksi tärkeysarvojen tuloksiin täytyy suhtautua varauksella. Taulukossa 1 ja Taulukossa 2 on listattu tärkeysarvojen tulokset luokittelumalleilla. Molemmilla malleilla psykologiset muuttujat listautuivat samaan järjestykseen ja WBSI-summamuuttuja sai suurimman tärkeysarvon.    
