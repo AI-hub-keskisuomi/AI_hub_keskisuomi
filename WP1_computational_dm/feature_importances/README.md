@@ -34,7 +34,7 @@ Ennustettavana muuttujana käytettiin painon muutosta joko luokiteltuna (1 = pai
 #### Tulokset
 Tuloslistauksessa on huomioitu vain psykologiset summamuuttujat. Yksittäisten muuttujien tärkeysarvojen listaukset on esitetty tiedostossa *Tarkeysarvot.xlsx*. 
 
-#### Luokittelumallit
+##### Luokittelumallit
 Käytettyjen satunnaismetsä ja extremely randomized trees mallien luokittelutarkkuudet olivat psykologisille summamuuttujille 60,58 % ja 60,61 %. Tarkkuudet ovat melko heikkoja ja tämän vuoksi tärkeysarvojen tuloksiin täytyy suhtautua varauksella. Taulukossa 1 ja Taulukossa 2 on listattu tärkeysarvojen tulokset luokittelumalleilla. Molemmilla malleilla psykologiset muuttujat listautuivat samaan järjestykseen ja WBSI-summamuuttuja sai suurimman tärkeysarvon.    
   
 Taulukko 1. Summamuuttujien tärkeysarvojen tulokset satunnaismetsäluokittelumallilla  
@@ -53,7 +53,7 @@ Taulukko 2. Summamuuttujien tärkeysarvojen tulokset extremely randomized trees 
 3 | DASS-21 | 24,42 %  | 0,49 % |   
 4 | GSE | 20,50 % | 0,44 % |    
   
-#### Regressiomallit
+##### Regressiomallit
 Regressiomallien tapauksessa ennustettujen arvojen ja todellisten arvojen välille laskettiin Pearsonin korrelaatiokertoimet. Korrelaatiot olivat heikkoja, jonka vuoksi myös regressiomallien tärkeysarvotuloksiin täytyy suhtautua varauksella. Satunnaismetsämallilla korrelaatiokerroin oli *r =* 0,225 ja extremely randomized trees -mallilla korrelaatiokerroin oli *r =* 0,275. Taulukossa 3 ja Taulukossa 4 on listattu tärkeysarvojen tulokset regressiomalleilla. Selvästi malleilla psykologiset summamuuttujat listautuivat eri järjestykseen, joka edelleen heikentää tulosten luetettavuutta.
 
 Taulukko 3. Summamuuttujien tärkeysarvojen tulokset satunnaismetsäregressiomallilla.  
