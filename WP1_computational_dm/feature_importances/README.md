@@ -1,14 +1,14 @@
-## Psykologisten tekijöiden vaikuttavuuden arviointi Muutosmatka-interventiossa
+## Painon muutosten ennustaminen psykologisia taitoja ja hyvinvointia kuvaavien tekijöiden avulla
 
 #### Piirteiden tärkeysarvojen tarkastelu
 
-Psykologiset tekijät voidaan jakaa neljään kategoriaan:
+Psykologisia taitoja ja hyvinvointia kuvaavat tekijät voidaan jakaa neljään kategoriaan:
 - Psykologinen joustavuus (AAQ-II)
 - Ajattelutoiminnot (WBSI)
 - Minäpystyvyys (GSE)
 - Mieliala (DASS-21)
 
-Muutosmatka-interventioon osallistuneille oli mahdollista laskea psykologisten tekijöiden pisteytykset lomakekyselyiden perusteella. Alhaiset arvot AAQ, WBSI ja DASS pisteytyksissä ja korkeat arvot GSE-pistetyksessä kuvaavat hyviä tuloksia. Osalla muuttujista on olemassa myös alakategorioita. Terveyteen liittyväksi riskitekijäksi valittiin kohdehenkilöiden painotiedot ja psykologisten tekijöitä verrattiin painotietoihin. Tavoitteena oli pyrkiä tunnistamaan ne psykologiset tekijät, jotka vaikuttavat eniten painon muutoksiin. 
+Muutosmatka-interventioon osallistuneille oli mahdollista laskea psykologisia taitoja ja hyvinvointia kuvaavien tekijöiden (jatkossa psykologisten tekijöiden) pisteytykset lomakekyselyiden perusteella. Matalat arvot AAQ, WBSI ja DASS pisteytyksissä sekä korkeat arvot GSE-pistetyksessä kuvaavat hyviä tuloksia. Osalle muuttujista on olemassa myös alakategorioita. Terveyteen liittyväksi riskitekijäksi valittiin kohdehenkilöiden painotiedot ja psykologisia tekijöitä verrattiin painotietoihin. Tavoitteena oli pyrkiä tunnistamaan ne psykologiset tekijät, jotka vaikuttavat eniten painon muutoksiin. 
 
 #### Koneoppimismallit 
 
